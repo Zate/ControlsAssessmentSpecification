@@ -33,6 +33,8 @@ Measures
 * M4 = Count of M3
 * M5 = List of inappropriately configured endpoints
 * M6 = Count of M5
+* M7 = List of systems not using approve DNS servers
+* M8 = Count of M7
 
 Metrics
 -------
@@ -42,15 +44,19 @@ DNS Filtering Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Determine the ratio of endpoints configured to use accepted DNS filtering services
-	    | to the total number of endpoints which utilize DNS.
+	  - | Determine the ratio of endpoints configured to use accepted DNS filtering services to the total number of endpoints which utilize DNS.
 	* - **Calculation**
 	  - :code:`M4 / M2`
 
 Traffic Analysis
 ^^^^^^^^^^^^^^^^
-**NOTE** A second measurement could utilize traffic analysis to determine if any traffic is *not* being sent through the prescribed DNS services.
+.. list-table::
 
+	* - **Metric**
+	  - | Utilize traffic analysis to determine if any traffic is *not* being sent through the prescribed DNS services.
+	* - **Calculation**
+	  - :code:`M8 / M2`
+	  
 .. history
 .. authors
 .. license

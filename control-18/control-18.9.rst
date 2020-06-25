@@ -45,8 +45,7 @@ Environment Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of production systems where at least one non-production deployment exists
-	    | to the total number of production systems
+	  - | The ratio of production systems where at least one non-production deployment exists to the total number of production systems
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
 
@@ -55,8 +54,7 @@ Monitored Account Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of accounts with production system access that are monitored to the total
-	    | accounts with production system access
+	  - | The ratio of accounts with production system access that are monitored to the total accounts with production system access
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

@@ -51,8 +51,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of software that contains proper error checking of inputs and is properly
-	    | documented
+	  - | The ratio of software that contains proper error checking of inputs and is properly documented
 	* - **Calculation**
 	  - :code:`M6 / M7`
 

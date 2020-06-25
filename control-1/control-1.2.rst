@@ -49,8 +49,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of the organization's networks with coverage from at least one properly
-	    | configured passive asset discovery tool to the total number of networks
+	  - | The ratio of the organization's networks with coverage from at least one properly configured passive asset discovery tool to the total number of networks
 	* - **Calculation**
 	  - :code:`M5 / M6`
 

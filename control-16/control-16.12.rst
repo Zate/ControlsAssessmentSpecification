@@ -22,8 +22,7 @@ Inputs
 #. Authentication System Inventory
 #. Approved configuration(s) for logging attempts to access deactivated accounts
 #. Approved configuration(s) for alerting on attempts to access deactivated accounts
-
-**Note**: There may be multiple configurations for Inputs 2 and 3 to account for various groups/types of authentication systems.
+#. **Note**: There may be multiple configurations for Inputs 2 and 3 to account for various groups/types of authentication systems.
 
 Operations
 ----------
@@ -47,8 +46,7 @@ Logging Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of authentication systems configured to log attempts to access deactivated
-	    | accounts to the total number of authentication systems.
+	  - | The ratio of authentication systems configured to log attempts to access deactivated accounts to the total number of authentication systems.
 	* - **Calculation**
 	  - :code:`M2 / M5`
 
@@ -57,8 +55,7 @@ Alerting Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of authentication systems configured to log attempts to access deactivated
-	    | accounts to the total number of authentication systems.
+	  - | The ratio of authentication systems configured to log attempts to access deactivated accounts to the total number of authentication systems.
 	* - **Calculation**
 	  - :code:`M3 / M5`
 
@@ -67,8 +64,7 @@ Full Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of authentication systems configured to both log and alert on attempts to
-	    | access deactivated accounts to the total number of authentication systems.
+	  - | The ratio of authentication systems configured to both log and alert on attempts to access deactivated accounts to the total number of authentication systems.
 	* - **Calculation**
 	  - :code:`M4 / M5`
 

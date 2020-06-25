@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of properly configured authentication systems to the total number of
-	    | authentication systems.
+	  - | The ratio of properly configured authentication systems to the total number of authentication systems.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

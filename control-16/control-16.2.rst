@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of desired centralized authentication points to actual authentication
-	    | points, where the goal is for M5 / M3 = 1.
+	  - | The ratio of desired centralized authentication points to actual authentication points, where the goal is for M5 / M3 = 1.
 	* - **Calculation**
 	  - :code:`M5 / M3`
 

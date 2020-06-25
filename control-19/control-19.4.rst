@@ -44,8 +44,7 @@ Incident Reporting Standards Completeness
 .. list-table::
 
 	* - **Metric**
-	  - | Does the Incident Reporting Standards document exist and adequately addresses the
-	    | specified topics?
+	  - | Does the Incident Reporting Standards document exist and adequately addresses the specified topics?
 	* - **Calculation**
 	  - :code:`M1 AND M2 AND M3 AND M4`
 

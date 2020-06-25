@@ -44,8 +44,7 @@ Incident Response Plan Completeness
 .. list-table::
 
 	* - **Metric**
-	  - | Does the incident response plan exist, contain job titles/duties, and adequately
-	    | address tracking and documentation throughout the incident?
+	  - | Does the incident response plan exist, contain job titles/duties, and adequately address tracking and documentation throughout the incident?
 	* - **Calculation**
 	  - :code:`M1 AND M2`
 
@@ -54,8 +53,7 @@ Assignment Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of incident response jobs/duties with assignees to the total number of
-	    | incident response jobs/duties
+	  - | The ratio of incident response jobs/duties with assignees to the total number of incident response jobs/duties
 	* - **Calculation**
 	  - :code:`M4 / M6`
 

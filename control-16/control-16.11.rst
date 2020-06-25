@@ -48,8 +48,7 @@ Misconfigured Workstations
 .. list-table::
 
 	* - **Metric**
-	  - | What percentage of automatic locking enabled workstations are configured within
-	    | the locking time threshold?
+	  - | What percentage of automatic locking enabled workstations are configured within the locking time threshold?
 	* - **Calculation**
 	  - :code:`M6 / M2`
 
@@ -58,7 +57,7 @@ Unconfigured Workstations
 .. list-table::
 
 	* - **Metric**
-	  - How many workstations do *not* have automatic locking enabled?
+	  - | How many workstations do *not* have automatic locking enabled?
 	* - **Calculation**
 	  - :code:`M2 - M4`
 

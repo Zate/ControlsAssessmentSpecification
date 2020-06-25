@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of VLANs properly configured for firewall filtering to the total number of
-	    | VLANs.
+	  - | The ratio of VLANs properly configured for firewall filtering to the total number of VLANs.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

@@ -38,8 +38,7 @@ Quality of Log correlation/aggregation
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of log producers correlated in a central service to the total number
-	    | of log producers.
+	  - | The ratio of log producers correlated in a central service to the total number of log producers.
 	* - **Calculation**
 	  - :code:`M2 / M1`
 

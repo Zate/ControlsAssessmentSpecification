@@ -44,8 +44,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured whitelisting software instances to the total
-	    | number of whitelisting software instances in the enterprise
+	  - | The ratio of appropriately configured whitelisting software instances to the total number of whitelisting software instances in the enterprise
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

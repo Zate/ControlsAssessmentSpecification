@@ -44,6 +44,8 @@ Measures
 Metrics
 -------
 
+Valid Accounts
+^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
@@ -51,12 +53,12 @@ Metrics
 	* - **Calculation**
 	  - :code:`M5 / M6`
 
-
+Valid Authentication Systems
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of correctly configured authentication systems to the total number of
-	    | authentication systems
+	  - | The ratio of correctly configured authentication systems to the total number of authentication systems
 	* - **Calculation**
 	  - :code:`M7 / M8`
 

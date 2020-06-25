@@ -51,8 +51,7 @@ Detection Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of network vulnerability scanning tools correctly configured for detecting
-	    | unauthorized WAPs
+	  - | The ratio of network vulnerability scanning tools correctly configured for detecting unauthorized WAPs
 	* - **Calculation**
 	  - :code:`M5 / M7`
 
@@ -61,8 +60,7 @@ Alerting Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of network vulnerability scanning tools correctly configured for alerting
-	    | on unauthorized WAPs
+	  - | The ratio of network vulnerability scanning tools correctly configured for alerting on unauthorized WAPs
 	* - **Calculation**
 	  - :code:`M6 / M7`
 
@@ -71,8 +69,7 @@ Full Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of network vulnerability scanning tools correctly configured for both
-	    | detecting and alerting on unauthorized WAPs
+	  - | The ratio of network vulnerability scanning tools correctly configured for both detecting and alerting on unauthorized WAPs
 	* - **Calculation**
 	  - :code:`M9 / M7`
 

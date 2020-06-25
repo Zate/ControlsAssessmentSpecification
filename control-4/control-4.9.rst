@@ -22,8 +22,7 @@ Inputs
 #. Endpoint inventory
 #. Approved configuration(s) for logging on unsuccessful login attempts to administrative accounts
 #. Approved configuration(s) for alerting on unsuccessful login attempts to administrative accounts
-
-**Note**: there may be multiple configurations for Inputs 2 and 3 to account for various groups/types of endpoints.
+#. **Note**: there may be multiple configurations for Inputs 2 and 3 to account for various groups/types of endpoints.
 
 Operations
 ----------
@@ -54,8 +53,7 @@ Logging Unsuccessful Login Attempts
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints logging when unsuccessful login attempts are made, to the total
-	    | number of endpoints
+	  - | The ratio of endpoints logging when unsuccessful login attempts are made, to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M2 / M5`
 
@@ -64,8 +62,7 @@ Alerting Unsuccessful Login Attempts
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints alerting when unsuccessful login attempts are made, to the total
-	    | number of endpoints
+	  - | The ratio of endpoints alerting when unsuccessful login attempts are made, to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M3 / M5`
 
@@ -75,8 +72,7 @@ Combined Compliance
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints both alerting and logging unsuccessful login attempts are made,
-	    | to the total number of endpoints
+	  - | The ratio of endpoints both alerting and logging unsuccessful login attempts are made, to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M4 / M5`
 

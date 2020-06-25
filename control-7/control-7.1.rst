@@ -41,14 +41,12 @@ Measures
 Metrics
 -------
 
-Percentage of Unsupported Web Browser/Email Client Software in Use
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Percentage Unsupported Client Software in Use
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | The calculation of this metric is determined by the ratio of unsupported web
-	    | browser/email client software to the total authorized web browser/email client software
-	    | in use.
+	  - | The calculation of this metric is determined by the ratio of unsupported web browser/email client software to the total authorized web browser/email client software in use.
 	* - **Calculation**
 	  - :code:`(M4 - M2) / M4`
 
@@ -57,9 +55,7 @@ Rate of False Positives
 .. list-table::
 
 	* - **Metric**
-	  - | The calculation of this metric is determined by the ratio of web browser/email client
-	    | software labeled "supported" but found to be unsupported, to the total authorized web
-	    | browser/email client software in use.
+	  - | The calculation of this metric is determined by the ratio of web browser/email client software labeled "supported" but found to be unsupported, to the total authorized web browser/email client software in use.
 	* - **Calculation**
 	  - :code:`(M4 - M6) / M4`
 
@@ -68,11 +64,10 @@ Rate of False Negatives
 .. list-table::
 
 	* - **Metric**
-	  - | The calculation of this metric is determined by the ratio of web browser/email client
-	    | software labeled "unsupported" but found to be supported, to the total authorized web
-	    | browser/email client software in use.
+	  - | The calculation of this metric is determined by the ratio of web browser/email client software labeled "unsupported" but found to be supported, to the total authorized web browser/email client software in use.
 	* - **Calculation**
 	  - :code:`(M4 - M8) / M4`
+	  
 .. history
 .. authors
 .. license

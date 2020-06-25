@@ -46,8 +46,7 @@ Privileged Accounts Remain
 .. list-table::
 
 	* - **Metric**
-	  - | If :code:`M5 > 0`, then privileged user accounts remain following the penetration
-	    | testing period.
+	  - | If M5 > 0, then privileged user accounts remain following the penetration testing period.
 	* - **Calculation**
 	  - :code:`M5 > 0`
 

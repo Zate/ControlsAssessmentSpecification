@@ -51,8 +51,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints covered by at least one application firewall to the total number
-	    | of critical endpoints
+	  - | The ratio of endpoints covered by at least one application firewall to the total number of critical endpoints
 	* - **Calculation**
 	  - :code:`M7 / M5`
 

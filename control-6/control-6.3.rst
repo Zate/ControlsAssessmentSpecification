@@ -40,8 +40,7 @@ Logging Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints configured to enable detailed system logging to the total number
-	    | of endpoints.
+	  - | The ratio of endpoints configured to enable detailed system logging to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
 

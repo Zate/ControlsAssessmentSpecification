@@ -46,8 +46,7 @@ Multi-Factor Compliance
 .. list-table::
 
 	* - **Metric**
-	  - | Calculate the ratio of administrative accounts configured to use multi-factor
-	    | authentication to the total number of administrative accounts
+	  - | Calculate the ratio of administrative accounts configured to use multi-factor authentication to the total number of administrative accounts
 	* - **Calculation**
 	  - :code:`M5 / M7`
 
@@ -56,8 +55,7 @@ Encrypted Channel Compliance
 .. list-table::
 
 	* - **Metric**
-	  - | Calculate the ratio of administrative accounts configured to use encrypted channels to
-	    | the total number of administrative accounts
+	  - | Calculate the ratio of administrative accounts configured to use encrypted channels to the total number of administrative accounts
 	* - **Calculation**
 	  - :code:`M6 / M7`
 

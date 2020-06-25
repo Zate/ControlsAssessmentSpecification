@@ -50,7 +50,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of infrequently used sensitive systems are not properly isolated?
+	  - | What percentage of infrequently used sensitive systems are not properly isolated?
 	* - **Calculation**
 	  - :code:`M6 / M4`
 

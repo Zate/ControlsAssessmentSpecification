@@ -48,8 +48,7 @@ Endpoint Inventory Quality
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with all detailed information to the total number of inventoried
-	    | endpoints
+	  - | The ratio of endpoints with all detailed information to the total number of inventoried endpoints
 	* - **Calculation**
 	  - :code:`M6 / M2`
 

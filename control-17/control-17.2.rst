@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of skills gap topics that are adequately covered in the organization's
-	    | security awareness training
+	  - | The ratio of skills gap topics that are adequately covered in the organization's security awareness training
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

@@ -47,8 +47,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured wireless access points to the total number of
-	    | wireless access points
+	  - | The ratio of appropriately configured wireless access points to the total number of wireless access points
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

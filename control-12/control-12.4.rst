@@ -47,10 +47,13 @@ Measures
 
 Metrics
 -------
+
+Endpoint Configuration
+^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - What is the ratio of correctly configured endpoints to the total number of endpoints?
+	  - | What is the ratio of correctly configured endpoints to the total number of endpoints?
 	* - **Calculation**
 	  - :code:`M12 / M2`
 

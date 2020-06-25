@@ -39,10 +39,9 @@ Measures
 * M4 = The count of M3
 * M5 = The list of users collected in Operation 2
 * M6 = The count of M5
-
-* M1 = The number of users defined as Administrators
-* M2 = For each user, this measure describes the number of user accounts identified by Operation 1
-* M3 = For each user, this measure describes the number of user accounts identified by Operation 2
+* M7 = The number of users defined as Administrators
+* M8 = For each user, this measure describes the number of user accounts identified by Operation 1
+* M9 = For each user, this measure describes the number of user accounts identified by Operation 2
 
 
 Metrics
@@ -53,22 +52,18 @@ Administrative User Accounts
 .. list-table::
 
 	* - **Metric**
-	  - | This metric is intended to determine whether those users identified as Administrative-level
-	    | have at least one Administrative-level and one non-Administrative level user account.
+	  - | This metric is intended to determine whether those users identified as Administrative-level have at least one Administrative-level and one non-Administrative level user account. The mapping performed by Operation 1 must show that, for each Administrative-level user, at least 1 Administrative-level user account and at least 1 non-Administrative-level user account are available.
 	* - **Calculation**
-	  - | The mapping performed by Operation 1 must show that, for each Administrative-level
-	    | user, at least 1 Administrative-level user account and at least 1
-	    | non-Administrative-level user account are available.  Otherwise, this metric is a :code:`FAIL`
+	  - :code:`M8 = M1`
 
 Unauthorized User Accounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | This metric is intended to illustrate any non-Administrative-level users that
-	    | have been assigned an Administrative-level user account.
+	  - | This metric is intended to illustrate any non-Administrative-level users that have been assigned an Administrative-level user account.
 	* - **Calculation**
-	  - If :code:`M6 > 0`, then :code:`FAIL`; otherwise :code:`PASS`
+	  - If :code:`M6 < 1`
 
 .. history
 .. authors

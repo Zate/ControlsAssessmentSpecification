@@ -37,11 +37,12 @@ Measures
 Metrics
 -------
 
+High Risk Software Separation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of properly separated high-risk applications to the total number of high-risk
-	    | applications
+	  - | The ratio of properly separated high-risk applications to the total number of high-risk applications
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

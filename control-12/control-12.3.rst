@@ -50,8 +50,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured network boundary devices to the total number of
-	    | network boundary devices
+	  - | The ratio of appropriately configured network boundary devices to the total number of network boundary devices
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

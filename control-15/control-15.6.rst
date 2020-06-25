@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of wireless clients with peer-to-peer (adhoc) wireless network capabilities
-	    | disabled
+	  - | The ratio of wireless clients with peer-to-peer (adhoc) wireless network capabilities disabled
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

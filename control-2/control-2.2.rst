@@ -37,11 +37,10 @@ Measures
 * M6 = Count of M5
 * M7 = List of items in the authorized software list that are mislabeled as unsupported
 * M8 = Count of M7
-
-* M1 = # of items in Input 1 that are unsupported (combination of Operation 1 results and those initially marked as unsupported in Input 1)
-* M2 = Total # of authorized software (from Input 1)
-* M3 = The number of items from Input 1 labeled "supported" but are actually not supported (from Operation 2)
-* M4 = The number of items from Input 1 labeled "unsupported" but are actually supported (from Operation 3)
+* M9 = # of items in Input 1 that are unsupported (combination of Operation 1 results and those initially marked as unsupported in Input 1)
+* M10 = Total # of authorized software (from Input 1)
+* M11 = The number of items from Input 1 labeled "supported" but are actually not supported (from Operation 2)
+* M12 = The number of items from Input 1 labeled "unsupported" but are actually supported (from Operation 3)
 
 Metrics
 -------

@@ -24,8 +24,7 @@ Inputs
 #. Approved configuration(s) for logging of accounts being removed from groups with administrative privileges
 #. Approved configuration(s) for alerting when accounts are added to groups with administrative privileges
 #. Approved configuration(s) for alerting when accounts are removed from groups with administrative privileges
-
-**Note**: there may be multiple configurations for Inputs 2 - 5 to account for various groups/types of endpoints.
+#. **Note**: there may be multiple configurations for Inputs 2 - 5 to account for various groups/types of endpoints.
 
 Operations
 ----------
@@ -64,8 +63,7 @@ Logging of Accounts Added to Groups
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints logging when accounts are added to groups to the total number
-	    | of endpoints
+	  - | The ratio of endpoints logging when accounts are added to groups to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M2 / M7`
 
@@ -74,8 +72,7 @@ Logging of Accounts Removed from Groups
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints logging when accounts are removed from groups to the total number
-	    | of endpoints
+	  - | The ratio of endpoints logging when accounts are removed from groups to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M3 / M7`
 
@@ -84,8 +81,7 @@ Alerting of Accounts Added to Groups
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints alerting when accounts are added to groups to the total number
-	    | of endpoints
+	  - | The ratio of endpoints alerting when accounts are added to groups to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M4 / M7`
 
@@ -94,8 +90,7 @@ Alerting of Accounts Removed from Groups
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints alerting when accounts are removed from groups to the total
-	    | number of endpoints
+	  - | The ratio of endpoints alerting when accounts are removed from groups to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M5 / M7`
 
@@ -104,8 +99,7 @@ Combined Compliance
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints both alerting and logging when accounts are both added and
-	    | removed to the total number of endpoints
+	  - | The ratio of endpoints both alerting and logging when accounts are both added and removed to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M6 / M7`
 

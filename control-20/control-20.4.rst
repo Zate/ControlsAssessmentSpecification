@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Does the Penetration Testing Program Includes Tests for the Presence of Unprotected
-	    | System Information and Artifacts?
+	  - | Does the Penetration Testing Program Includes Tests for the Presence of Unprotected System Information and Artifacts?
 	* - **Calculation**
 	  - :code:`(M1 + M2 + M3 + M4) / 4`
 

@@ -55,7 +55,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of endpoints are successfully backing up system data on a regular basis?
+	  - | What percentage of endpoints are successfully backing up system data on a regular basis?
 	* - **Calculation**
 	  - :code:`M8 / M2`
 

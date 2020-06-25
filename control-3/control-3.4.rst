@@ -45,15 +45,18 @@ Update Effectiveness (Per Endpoint)
 .. list-table::
 
 	* - **Metric**
-	  - | For a given endpoint, calculate the ratio of installed OS updates to the total
-	    | number of OS updates required.
+	  - | For a given endpoint, calculate the ratio of installed OS updates to the total number of OS updates required.
 	* - **Calculation**
-	  - | If M4 = 0, this indicates the endpoint requires no OS updates.
-	    | Otherwise, this metric is calculated as :code:`M5 / M4`
+	  - If M4 = 0, this indicates the endpoint requires no OS updates. Otherwise, this metric is calculated as :code:`M5 / M4`
 
 Update Effectiveness (Organizational)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+.. list-table::
+
+	* - **Metric**
+	  - | The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+	* - **Calculation**
+	  - :code:``
 
 .. history
 .. authors

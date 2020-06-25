@@ -52,8 +52,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints covered by at least one DLP software instance to the total
-	    | number of endpoints capable of storing data
+	  - | The ratio of endpoints covered by at least one DLP software instance to the total number of endpoints capable of storing data
 	* - **Calculation**
 	  - :code:`M7 / M5`
 

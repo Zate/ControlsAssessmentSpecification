@@ -62,8 +62,7 @@ Inventory Tool Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints covered by automated software inventory tools to the total
-	    | number of applicable endpoints
+	  - | The ratio of endpoints covered by automated software inventory tools to the total number of applicable endpoints
 	* - **Calculation**
 	  - :code:`M3 / M7`
 

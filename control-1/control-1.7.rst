@@ -66,8 +66,7 @@ Authenticator Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of improperly configured 802.1x authenticators to total number of 802.1x
-	    | authenticators
+	  - | Ratio of improperly configured 802.1x authenticators to total number of 802.1x authenticators
 	* - **Calculation**
 	  - :code:`M4 / M12`
 
@@ -76,8 +75,7 @@ Authentication Server Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of improperly configured 802.1x authentication servers to total number of
-	    | 802.1x authentication servers
+	  - | Ratio of improperly configured 802.1x authentication servers to total number of 802.1x authentication servers
 	* - **Calculation**
 	  - :code:`M8 / M11`
 

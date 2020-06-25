@@ -45,8 +45,7 @@ Quality
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with all detailed information to the total number of endpoints
-	    | under management.
+	  - | The ratio of endpoints with all detailed information to the total number of endpoints under management.
 	* - **Calculation**
 	  - :code:`M2 / M1`
 

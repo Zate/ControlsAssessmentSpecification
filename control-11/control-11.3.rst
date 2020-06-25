@@ -41,8 +41,7 @@ Non-Compliance Ratio
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of network devices not in compliance with secure configuration policies to the
-	    | total number of network devices.
+	  - | The ratio of network devices not in compliance with secure configuration policies to the total number of network devices.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
 

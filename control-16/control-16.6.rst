@@ -39,6 +39,8 @@ Measures
 Metrics
 -------
 
+Account Inventory Accuracy
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**

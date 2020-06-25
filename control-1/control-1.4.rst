@@ -51,15 +51,19 @@ Accuracy Score
 .. list-table::
 
 	* - **Metric**
-	  - | What percentage of the "ground truth" inventory is accounted for in the organization's
-	    | current asset inventory?
+	  - | What percentage of the "ground truth" inventory is accounted for in the organization's current asset inventory?
 	* - **Calculation**
 	  - :code:`M2 / M4`
 
 
 Procedure Review
 ^^^^^^^^^^^^^^^^
-Second, manual review/rating of the inventory procedures, to include adding and removing assets, and the time allowable or expected, after acquisition or disposal of assets.
+.. list-table::
+
+	* - **Metric**
+	  - | Second, manual review/rating of the inventory procedures, to include adding and removing assets, and the time allowable or expected, after acquisition or disposal of assets.
+	* - **Calculation**
+	  - :code:``
 
 
 .. history

@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of encryption algorithms used by the organization that are standardized, 
-	    | currently accepted, and extensively reviewed
+	  - | The ratio of encryption algorithms used by the organization that are standardized, currently accepted, and extensively reviewed
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

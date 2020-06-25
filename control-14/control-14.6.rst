@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | What is the percentage of endpoints which are compliant with the organization's
-	    | access control policy?
+	  - | What is the percentage of endpoints which are compliant with the organization's access control policy?
 	* - **Calculation**
 	  - :code:`M3 / M5`
 

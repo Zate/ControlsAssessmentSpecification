@@ -46,8 +46,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of adequately separated sensitive systems to the total number of sensitive
-	    | systems.
+	  - | The ratio of adequately separated sensitive systems to the total number of sensitive systems.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

@@ -36,11 +36,13 @@ Measures
 
 Metrics
 -------
+
+Coverage
+^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | Is information regarding reporting of computer anomalies and incidents published
-	    | for all workforce members?
+	  - | Is information regarding reporting of computer anomalies and incidents published for all workforce members?
 	* - **Calculation**
 	  - :code:`M1 AND M2 AND M3 AND M4`
 

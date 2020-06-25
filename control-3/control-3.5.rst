@@ -46,17 +46,18 @@ Update Effectiveness (Per Endpoint)
 .. list-table::
 
 	* - **Metric**
-	  - | For a given endpoint, calculate the ratio of installed software updates to the
-	    | total number of required software updates.
+	  - | For a given endpoint, calculate the ratio of installed software updates to the total number of required software updates.
 	* - **Calculation**
-	  - | If :code:`M2 == 0`, this indicates the endpoint requires no software updates.
-	    | If :code:`(M2 - M5) == 0`, this indicates the endpoint requires software updates,
-	    | but the out-of-date software has an approved exception.
-	    | Otherwise, this metric is calculated as :code:`(M2 - M5) / M4`
+	  - If :code:`M2 == 0`, this indicates the endpoint requires no software updates. If :code:`(M2 - M5) == 0`, this indicates the endpoint requires software updates, but the out-of-date software has an approved exception. Otherwise, this metric is calculated as :code:`(M2 - M5) / M4`
 
 Update Effectiveness (Organizational)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+.. list-table::
+
+	* - **Metric**
+	  - | The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+	* - **Calculation**
+	  - :code:``
 
 .. history
 .. authors

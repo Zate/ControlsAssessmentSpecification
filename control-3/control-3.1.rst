@@ -55,8 +55,7 @@ Vulnerability Scanning Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints covered by at least one vulnerability scanning tool to the total
-	    | number of endpoints
+	  - | The ratio of endpoints covered by at least one vulnerability scanning tool to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M2 / M3`
 
@@ -65,8 +64,7 @@ Vulnerability Scanner Configuration Quality
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of correctly configured vulnerability scanners to the total number of
-	    | vulnerability scanners
+	  - | The ratio of correctly configured vulnerability scanners to the total number of vulnerability scanners
 	* - **Calculation**
 	  - :code:`M5 / M13`
 
@@ -75,8 +73,7 @@ Vulnerability Scan Timeliness
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of scanners having actually scanned in at least the past week to the total
-	    | number of vulnerability scanners
+	  - | The ratio of scanners having actually scanned in at least the past week to the total number of vulnerability scanners
 	* - **Calculation**
 	  - :code:`M9 / M13`
 

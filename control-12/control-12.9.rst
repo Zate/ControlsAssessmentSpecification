@@ -56,8 +56,7 @@ Proxy Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured application-layer proxies to the total number
-	    | of application-layer proxies.
+	  - | The ratio of appropriately configured application-layer proxies to the total number of application-layer proxies.
 	* - **Calculation**
 	  - :code:`M8 / M7`
 
@@ -66,8 +65,7 @@ Internet Network Boundary Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of covered Internet network boundary devices to the total number of Internet
-	    | network boundary devices
+	  - | The ratio of covered Internet network boundary devices to the total number of Internet network boundary devices
 	* - **Calculation**
 	  - :code:`M10 / M6`
 

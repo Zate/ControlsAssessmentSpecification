@@ -45,8 +45,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of network devices to which standard, documented security configuration
-	    | standards exist to the total number of network devices
+	  - | The ratio of network devices to which standard, documented security configuration standards exist to the total number of network devices
 	* - **Calculation**
 	  - :code:`(M4 - M2) / M4`
 

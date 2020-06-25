@@ -33,10 +33,13 @@ Measures
 
 Metrics
 -------
+
+Coverage
+^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - Is information on third-party contact information maintained, for use in incident handling?
+	  - | Is information on third-party contact information maintained, for use in incident handling?
 	* - **Calculation**
 	  - :code:`M1 AND M2`
 

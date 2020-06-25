@@ -33,11 +33,12 @@ Measures
 Metrics
 -------
 
+Coverage
+^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | Does a penetration testing program document exist and adequately address a full scope
-	    | of attacks?
+	  - | Does a penetration testing program document exist and adequately address a full scope of attacks?
 	* - **Calculation**
 	  - :code:`	M1 AND M2`
 

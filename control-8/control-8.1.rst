@@ -57,7 +57,6 @@ Anti-Malware Management Coverage
 	* - **Calculation**
 	  - :code:`M2 / M1`
 
-
 Endpoint Anti-Malware Coverage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
@@ -66,7 +65,6 @@ Endpoint Anti-Malware Coverage
 	  - | Percentage of endpoints covered by anti-malware solutions
 	* - **Calculation**
 	  - :code:`M3 / M4`
-
 
 .. history
 .. authors

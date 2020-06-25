@@ -48,8 +48,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of discovered wireless access points to the total inventoried list of
-	    | wireless access points.
+	  - | The ratio of discovered wireless access points to the total inventoried list of wireless access points.
 	* - **Calculation**
 	  - :code:`(M3 - M1) / M1`
 
@@ -59,8 +58,7 @@ Inventory Gap
 .. list-table::
 
 	* - **Metric**
-	  - | Are there any discovered wireless access points that are *not* contained in the
-	    | inventory?
+	  - | Are there any discovered wireless access points that are *not* contained in the inventory?
 	* - **Calculation**
 	  - :code:`M5 > 0`
 
@@ -69,8 +67,7 @@ Unauthorized Usage
 .. list-table::
 
 	* - **Metric**
-	  - | Are there any discovered wireless access points which are contained in the
-	    | inventory but are noted as *not* authorized?
+	  - | Are there any discovered wireless access points which are contained in the inventory but are noted as *not* authorized?
 	* - **Calculation**
 	  - :code:`M9 > 0`
 

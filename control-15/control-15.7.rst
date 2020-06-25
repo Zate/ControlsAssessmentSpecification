@@ -47,7 +47,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of AES-capable devices are configured to use cipher suites leveraging AES?
+	  - | What percentage of AES-capable devices are configured to use cipher suites leveraging AES?
 	* - **Calculation**
 	  - :code:`M8 / M4`
 

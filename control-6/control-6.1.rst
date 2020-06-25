@@ -44,8 +44,7 @@ NTP Compliance Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints using at least 3 synchronized time sources to the total
-	    | set of endpoints
+	  - | The ratio of endpoints using at least 3 synchronized time sources to the total set of endpoints
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M2 (M4(i)) / M2)`
 

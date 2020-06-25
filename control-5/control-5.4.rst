@@ -56,8 +56,7 @@ Initial Non-Compliance
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of non-compliant recommendations at time "t", to the total recommendations
-	    | assessed.
+	  - | The ratio of non-compliant recommendations at time "t", to the total recommendations assessed.
 	* - **Calculation**
 	  - :code:`M1(t) / M2`
 

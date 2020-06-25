@@ -44,7 +44,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What is the ratio of endpoints matching the backup configuration policy to the total number of endpoints?
+	  - | What is the ratio of endpoints matching the backup configuration policy to the total number of endpoints?
 	* - **Calculation**
 	  - :code:`M4 / M2`
 
@@ -53,7 +53,7 @@ Lack of Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What is the ratio of endpoints *not* matching the backup configuration policy to the total number of endpoints?
+	  - | What is the ratio of endpoints *not* matching the backup configuration policy to the total number of endpoints?
 	* - **Calculation**
 	  - :code:`M5 / M2`
 

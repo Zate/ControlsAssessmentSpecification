@@ -56,8 +56,7 @@ Configuration Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured endpoints to the total number of authorized
-	    | wireless-client-capable endpoints
+	  - | The ratio of appropriately configured endpoints to the total number of authorized wireless-client-capable endpoints
 	* - **Calculation**
 	  - :code:`M9 / M8`
 
@@ -66,8 +65,7 @@ Authorization Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of authorized wireless-client-capable endpoints to the total number of
-	    | wireless-client-capable endpoints
+	  - | The ratio of authorized wireless-client-capable endpoints to the total number of wireless-client-capable endpoints
 	* - **Calculation**
 	  - :code:`M8 / M6`
 .. history

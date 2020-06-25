@@ -48,8 +48,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | What is the ratio of endpoints compliant with the desired anti-malware configuration
-	    | to the total number of endpoints capable of supporting anti-malware software?
+	  - | What is the ratio of endpoints compliant with the desired anti-malware configuration to the total number of endpoints capable of supporting anti-malware software?
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

@@ -55,8 +55,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints covered by an encryption tool to the total number of endpoints
-	    | storing sensitive information
+	  - | The ratio of endpoints covered by an encryption tool to the total number of endpoints storing sensitive information
 	* - **Calculation**
 	  - :code:`M7 / M6`
 

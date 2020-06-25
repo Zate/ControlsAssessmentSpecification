@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | What is the ratio of non-inventoried boundary devices to expected boundary devices?
-	    | If the calculated value is greater than zero, the inventory is not current.
+	  - | What is the ratio of non-inventoried boundary devices to expected boundary devices? If the calculated value is greater than zero, the inventory is not current.
 	* - **Calculation**
 	  - :code:`M6 / M2`
 

@@ -46,8 +46,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured software inventory systems to the number of
-	    | software inventory systems
+	  - | The ratio of appropriately configured software inventory systems to the number of software inventory systems
 	* - **Calculation**
 	  - :code:`M7 / M5`
 

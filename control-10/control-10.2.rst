@@ -48,7 +48,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of key systems are successfully backed up as a complete system?
+	  - | What percentage of key systems are successfully backed up as a complete system?
 	* - **Calculation**
 	  - :code:`M4 / M2`
 

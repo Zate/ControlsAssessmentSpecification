@@ -48,8 +48,7 @@ Security Configuration Standards Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | For what percentage of the total OS/Software in an enterprise, are security configuration
-	    | standards documented and maintained?
+	  - | For what percentage of the total OS/Software in an enterprise, are security configuration standards documented and maintained?
 	* - **Calculation**
 	  - :code:`(M8 - M4) / M8`
 

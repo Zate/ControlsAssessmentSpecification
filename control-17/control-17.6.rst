@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | What percentage of workforce members have completed the security awareness training
-	    | module within the specified timeframe?
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
 	* - **Calculation**
 	  - :code:`M3 / M5`
 

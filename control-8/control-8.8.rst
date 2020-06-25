@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints compliant with command shell logging configurations to the
-	    | total number of endpoints
+	  - | The ratio of endpoints compliant with command shell logging configurations to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M1 / M2`
 

@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of sensitive information types properly configured to be encrypted in
-	    | transit to the total set of sensitive information types.
+	  - | The ratio of sensitive information types properly configured to be encrypted in transit to the total set of sensitive information types.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

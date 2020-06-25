@@ -55,8 +55,7 @@ Network Monitoring Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured network monitoring systems to the total number
-	    | of network monitoring systems
+	  - | The ratio of appropriately configured network monitoring systems to the total number of network monitoring systems
 	* - **Calculation**
 	  - :code:`M9 / M7`
 

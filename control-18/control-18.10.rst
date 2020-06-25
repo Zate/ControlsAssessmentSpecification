@@ -46,8 +46,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of the number of applications covered by an application-level firewall to the
-	    | number of eligible applications in the enterprise.
+	  - | The ratio of the number of applications covered by an application-level firewall to the number of eligible applications in the enterprise.
 	* - **Calculation**
 	  - :code:`M7 / M5`
 

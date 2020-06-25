@@ -42,7 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of accounts are associated with at least one business process or ownership?
+	  - | What percentage of accounts are associated with at least one business process or ownership?
 	* - **Calculation**
 	  - :code:`M6 / M2`
 

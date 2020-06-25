@@ -37,11 +37,12 @@ Measures
 Metrics
 -------
 
+MFA Coverage
+^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of accounts that are properly configured to require MFA to the total number
-	    | of accounts.
+	  - | The ratio of accounts that are properly configured to require MFA to the total number of accounts.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

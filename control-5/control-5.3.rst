@@ -45,8 +45,7 @@ Integrity Monitoring Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of master images/templates identified by integrity monitoring tools,
-	    | to the total number of images/templates.
+	  - | The ratio of master images/templates identified by integrity monitoring tools, to the total number of images/templates.
 	* - **Calculation**
 	  - :code:`M2 / M1`
 

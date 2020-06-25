@@ -1,0 +1,2334 @@
+
+Notes
+^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | If M8 is 0, then this Sub-Control receives a failing score and the other metrics don't apply.
+	* - **Calculation**
+	  - :code:``
+
+Asset Discovery Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Asset Discovery Coverage
+	* - **Calculation**
+	  - :code:`M5 / M7`
+
+Tool Compliance Ratio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Tool Compliance Ratio
+	* - **Calculation**
+	  - :code:`M6 / M8`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of the organization's networks with coverage from at least one properly configured passive asset discovery tool to the total number of networks
+	* - **Calculation**
+	  - :code:`M5 / M6`
+
+Notes
+^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | M5 > 0 indicates a non up-to-date asset inventory
+	* - **Calculation**
+	  - :code:``
+
+DHCP Logging Quality
+^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of appropriately configured DHCP logging enabled to known DHCP servers
+	* - **Calculation**
+	  - :code:`M3 / M1`
+
+CMDB Configuration Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of appropriately configured CMDB servers using DHCP logging to update IP addresses
+	* - **Calculation**
+	  - :code:`M6 / M4`
+
+Accuracy Score
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of the "ground truth" inventory is accounted for in the organization's current asset inventory?
+	* - **Calculation**
+	  - :code:`M2 / M4`
+
+
+Procedure Review
+^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Second, manual review/rating of the inventory procedures, to include adding and removing assets, and the time allowable or expected, after acquisition or disposal of assets.
+	* - **Calculation**
+	  - :code:``
+
+
+Endpoint Inventory Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with all detailed information to the total number of inventoried endpoints
+	* - **Calculation**
+	  - :code:`M6 / M2`
+
+Endpoint Inventory Authorization Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with approval to connect to the network
+	* - **Calculation**
+	  - :code:`M4 / M2`
+
+Unauthorized Asset Remediation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of unaccounted for, unauthorized assets, to the total assets in the asset inventory. If the value of M6 is 0, there are no unauthorized assets that remain unaccounted for. In this case, the value of the metric is 1.
+	* - **Calculation**
+	  - :code:`(M8 - M6) / M8`
+
+802.1x Deployment
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is 802.1x deployed?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Authenticator Coverage
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of improperly configured 802.1x authenticators to total number of 802.1x authenticators
+	* - **Calculation**
+	  - :code:`M4 / M12`
+
+Authentication Server Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of improperly configured 802.1x authentication servers to total number of 802.1x authentication servers
+	* - **Calculation**
+	  - :code:`M8 / M11`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured hardware devices to the number of hardware devices
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Update Quality
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is the authorized software list present and up-to-date?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Percentage of Unsupported Software in Use
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of authorized software in use is unsupported?
+	* - **Calculation**
+	  - :code:`(M4 - M2) / M4`
+
+Rate of False Positives
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of software listed as supported is actually not supported?
+	* - **Calculation**
+	  - :code:`(M4 - M5) / M4`
+
+Rate of False Negatives
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of software listed as unsupported is actually supported?
+	* - **Calculation**
+	  - :code:`(M4 - M8) / M4`
+
+Software Inventory Tool Usage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are software inventory tools used?
+	* - **Calculation**
+	  - :code:`(M1 == 0) OR (M1 == 1)`
+
+Inventory Tool Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints covered by automated software inventory tools to the total number of applicable endpoints
+	* - **Calculation**
+	  - :code:`M3 / M7`
+
+Inventory Quality
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of entries with all detailed information to the total number of entries
+	* - **Calculation**
+	  - :code:`M7 / M1`
+
+Inventory Authorization Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of entries authorized to be installed to the total number of entries
+	* - **Calculation**
+	  - :code:`M3 / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured software inventory systems to the number of software inventory systems
+	* - **Calculation**
+	  - :code:`M7 / M5`
+
+Unauthorized Software (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ensure unauthorized software installations are addressed
+	* - **Calculation**
+	  - :code:`(M4 - M5) / M4`
+
+Unauthorized Software (Organizational)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+	* - **Calculation**
+	  - :code:``
+
+Whitelisting Installation Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with whitelisting capabilities installed to the number of whitelisting-eligible endpoints
+	* - **Calculation**
+	  - :code:`M7 / M6`
+
+Whitelisting Configuration Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with appropriately configured whitelisting capabilities to the number of endpoints with whitelisting capabilities
+	* - **Calculation**
+	  - :code:`M9 /  M7`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured whitelisting software instances to the total number of whitelisting software instances in the enterprise
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured whitelisting software instances to the total number of whitelisting software instances in the enterprise
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+High Risk Software Separation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of properly separated high-risk applications to the total number of high-risk applications
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Vulnerability Scanning Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints covered by at least one vulnerability scanning tool to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M2 / M3`
+
+Vulnerability Scanner Configuration Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of correctly configured vulnerability scanners to the total number of vulnerability scanners
+	* - **Calculation**
+	  - :code:`M5 / M13`
+
+Vulnerability Scan Timeliness
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of scanners having actually scanned in at least the past week to the total number of vulnerability scanners
+	* - **Calculation**
+	  - :code:`M9 / M13`
+
+SCAP-Validated Vulnerability Scanner Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of SCAP-validated scanners to the total number of vulnerability scanners
+	* - **Calculation**
+	  - :code:`M12 / M13`
+
+Authenticated Vulnerability Scanning Tool Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Percentage of authenticated vulnerability scanning tools (100% is desired)
+	* - **Calculation**
+	  - :code:`(M1 - M5) / M1`
+
+Recently Used Vulnerability Scanning Tools
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Percentage of vulnerability scanning tools recently used
+	* - **Calculation**
+	  - :code:`(M1 - M7) / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Authenticated scanning coverage
+	* - **Calculation**
+	  - :code:`M13 / M11`
+
+Misconfigured Account Ratio
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of misconfigured vulnerability scanning accounts to the total number of vulnerability scanning accounts
+	* - **Calculation**
+	  - :code:`(M1 - M3) / M1`
+
+Update Effectiveness (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | For a given endpoint, calculate the ratio of installed OS updates to the total number of OS updates required.
+	* - **Calculation**
+	  - If M4 = 0, this indicates the endpoint requires no OS updates. Otherwise, this metric is calculated as :code:`M5 / M4`
+
+Update Effectiveness (Organizational)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+	* - **Calculation**
+	  - :code:``
+
+Update Effectiveness (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | For a given endpoint, calculate the ratio of installed software updates to the total number of required software updates.
+	* - **Calculation**
+	  - If :code:`M2 == 0`, this indicates the endpoint requires no software updates. If :code:`(M2 - M5) == 0`, this indicates the endpoint requires software updates, but the out-of-date software has an approved exception. Otherwise, this metric is calculated as :code:`(M2 - M5) / M4`
+
+Update Effectiveness (Organizational)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+	* - **Calculation**
+	  - :code:``
+
+Unmitigated Vulnerabilities
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Count of vulnerabilities previously discovered that are still discovered.
+	* - **Calculation**
+	  - :code:`M3 - M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Coverage of back-to-back comparisons against eligible endpoints
+	* - **Calculation**
+	  - :code:`M6 / M8`
+
+Risk-Rating Process
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Manual review: Does a risk-rating process exist and is it utilized for prioritization?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Administrative Account Inventory
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ensure the administrative account inventory exists.  If :code:`M1 == 0`, this metric fails and the remaining metrics are not applicable.
+	* - **Calculation**
+	  - :code:`M1`
+
+Automated Tool Functioning
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ensure any automated tools are properly functioning.  If :code:`M2 == 0`, this metric fails and the remaining metrics are not applicable.
+	* - **Calculation**
+	  - :code:`M2`
+
+Tool Coverage
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio discovered administrative accounts to the inventoried administrative accounts.
+	* - **Calculation**
+	  - :code:`M5 / M1`
+
+Unauthorized Accounts
+^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of discovered unauthorized administrative accounts to total discovered administrative accounts
+	* - **Calculation**
+	  - :code:`M6 / (M5 + M6)`
+
+Default Password Usage
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of credentials have been changed from the default value?
+	* - **Calculation**
+	  - | :code:`(M2 - M4) / M2`
+
+Password Policy Compliance
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of collected password policies comply with the organization's password policies?
+	* - **Calculation**
+	  - | If M6 = 0, then no endpoint password policy configurations were collected. Otherwise, the value of this metric is :code:`M8 / M6`
+
+Administrative User Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | This metric is intended to determine whether those users identified as Administrative-level have at least one Administrative-level and one non-Administrative level user account. The mapping performed by Operation 1 must show that, for each Administrative-level user, at least 1 Administrative-level user account and at least 1 non-Administrative-level user account are available.
+	* - **Calculation**
+	  - :code:`M8 = M1`
+
+Unauthorized User Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | This metric is intended to illustrate any non-Administrative-level users that have been assigned an Administrative-level user account.
+	* - **Calculation**
+	  - If :code:`M6 < 1`
+
+Password Policy Existence
+^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | This metric indicates the existence of a password policy for the organization
+	* - **Calculation**
+	  - :code:`M1 == 1`
+
+Policy Review
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | (Optional Manual Review) Pass if the organization's password policy includes a unique password requirement.
+	* - **Calculation**
+	  - :code:``
+
+Multi-Factor Compliance
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Calculate the ratio of administrative accounts configured to use multi-factor authentication to the total number of administrative accounts
+	* - **Calculation**
+	  - :code:`M5 / M7`
+
+Encrypted Channel Compliance
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Calculate the ratio of administrative accounts configured to use encrypted channels to the total number of administrative accounts
+	* - **Calculation**
+	  - :code:`M6 / M7`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured administrative devices to the total number of administrative devices
+	* - **Calculation**
+	  - :code:`M7 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of accounts that comply with the scripting tool access policy
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Logging of Accounts Added to Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints logging when accounts are added to groups to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M2 / M7`
+
+Logging of Accounts Removed from Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints logging when accounts are removed from groups to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M3 / M7`
+
+Alerting of Accounts Added to Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints alerting when accounts are added to groups to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M4 / M7`
+
+Alerting of Accounts Removed from Groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints alerting when accounts are removed from groups to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M5 / M7`
+
+Combined Compliance
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints both alerting and logging when accounts are both added and removed to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M6 / M7`
+
+Logging Unsuccessful Login Attempts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints logging when unsuccessful login attempts are made, to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M2 / M5`
+
+Alerting Unsuccessful Login Attempts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints alerting when unsuccessful login attempts are made, to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+
+Combined Compliance
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints both alerting and logging unsuccessful login attempts are made, to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M4 / M5`
+
+Security Configuration Standards Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | For what percentage of the total OS/Software in an enterprise, are security configuration standards documented and maintained?
+	* - **Calculation**
+	  - :code:`(M8 - M4) / M8`
+
+Image Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of systems with a corresponding image taken to the total number of inventoried systems
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Configuration Coverage
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of all systems with a corresponding image taken to those configured according to the standards mapped to that system
+	* - **Calculation**
+	  - :code:`(SUM from 1..M2 (M3)) / M2`
+
+Integrity Monitoring Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of master images/templates identified by integrity monitoring tools, to the total number of images/templates.
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Update Procedures
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Determine if the documented master image update procedure exists
+	* - **Calculation**
+	  - :code:`M3 == 1`
+
+Initial Non-Compliance
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of non-compliant recommendations at time "t", to the total recommendations assessed.
+	* - **Calculation**
+	  - :code:`M1(t) / M2`
+
+Subsequent Non-Compliance
+^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of non-compliant recommendations at time "t+1" ()
+	* - **Calculation**
+	  - :code:`M1(t+1) / M2`
+
+Overall Compliance
+^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the average overall compliance for all assessed endpoints at time "t"
+	* - **Calculation**
+	  - :code:`(SUM from 1..M3 (M1(t) / M2)) / M3`
+
+Tooling Compliance
+^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are SCAP-validated configuration scanning tool(s) being used?
+	* - **Calculation**
+	  - :code:`M1 == 1`
+
+Tooling Compliance Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of SCAP-validated tools to the total number of configuration management tools
+	* - **Calculation**
+	  - :code:`M8 / M9`
+
+Initial Non-Compliance (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Per endpoint, the ratio of non-compliant recommendations to the total recommendations assessed.
+	* - **Calculation**
+	  - :code:`M2 / M6`
+
+Initial Exception Coverage (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Per endpoint, the ratio of non-compliant recommendations with approved exceptions, to the total recommendations assessed.
+	* - **Calculation**
+	  - :code:`(M7 - M3) / M7`
+
+Subsequent Non-Compliance (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Per endpoint, the ratio of non-compliant recommendations to the total recommendations assessed.
+	* - **Calculation**
+	  - :code:`M4 / M6`
+
+Subsequent Exception Coverage (Per Endpoint)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Per endpoint, the ratio of non-compliant recommendations with approved exceptions, to the total recommendations assessed.
+	* - **Calculation**
+	  - :code:`(M7 - M5) / M7`
+
+NTP Compliance Coverage
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints using at least 3 synchronized time sources to the total set of endpoints
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M4(i)) / M2)`
+
+Logging Policy Coverage
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Determine the ratio of endpoints implementing the prescribed event logging policy to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`M4 / M6)`
+
+Logging Coverage
+^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints configured to enable detailed system logging to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
+
+Logging Storage Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints compliant with the organization's logging policy to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
+
+Quality of Log correlation/aggregation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of log producers correlated in a central service to the total number of log producers.
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Quality of SIEM Correlation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of log producers correlated by a SIEM to the total number of log producers
+	* - **Calculation**
+	  - :code:`IF M1 == 1 THEN M2 / M3; OTHERWISE 0`
+
+Regularity Measure of Log Review
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Measure the irregularity or variance of log review.  The higher the value the more irregularity.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..N ( (t(i+1) - t(i)) - M1)^2 / N ) / R`
+
+Quality of Log Review
+^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The quality of review is high if-and-only-if the review is highly regular and the potential for detecting anomalies (at least one per review) is also high.
+	* - **Calculation**
+	  - :code:`(1-M2) * M3`
+
+Procedure Existence
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does an enterprise-defined set of SIEM operational procedures exist?
+	* - **Calculation**
+	  - :code:`M1 = 1?`
+
+SIEM Tuning Freshness
+^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | How recently was the SIEM last tuned?
+	* - **Calculation**
+	  - :code:`(M3 - M4) / M2`
+
+
+Browser Plugin Enforcement Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints utilizing browser plugins on the approved list to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M3(i))) / M1`
+
+Email Client Plugin Enforcement Quality
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints utilizing email client plugins on the approved list to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M5(i))) / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of compliant web browser and email client instances
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Calculate the quality of URL-filter enforcement.
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Enforcement
+^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Calculate whether URL categorization is successfully blocking uncategorized URL access.
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Configuration Coverage
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of devices which enable URL request logging to the total number of devices.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
+
+
+DMARC Usage
+^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ensure usage and proper configuration of DMARC/SPF/DKIM
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints configured as email gateways that are properly configured to the total number of email gateway endpoints
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured e-mail servers to the total number of e-mail servers
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Anti-Malware Management Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Percentage of anti-malware solutions that are centrally managed
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Endpoint Anti-Malware Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Percentage of endpoints covered by anti-malware solutions
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of anti-malware software version compliant endpoints to the total number of endpoints capable of supporting anti-malware software?
+	* - **Calculation**
+	  - :code:`M7 / M9`
+
+Freshness
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints whose anti-malware software has been updated within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M9 / M6`
+
+Anti-Exploitation
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of endpoints compliant with anti-exploitation configurations to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M1 / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the ratio of endpoints compliant with the desired anti-malware configuration to the total number of endpoints capable of supporting anti-malware software?
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Auto Run Disabled
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints properly disabling auto-run to the total number of endpoints?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of properly configured software instances for sending/receiving malware detection events.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Quality
+^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Quality of Log correlation/aggregation for Anti-Malware
+	* - **Calculation**
+	  - :code:`M6 / M5`
+
+DNS Configuration Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of internal DNS servers matching the approved configuration to the total number of internal DNS servers.
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints compliant with command shell logging configurations to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M1 / M2`
+
+Quality
+^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with all detailed information to the total number of endpoints under management.
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Ports
+^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of unauthorized ports to open ports
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Services
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of unauthorized services to discovered services
+	* - **Calculation**
+	  - :code:`M4 / M3`
+
+Unexpected Protocols
+^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of unexpected protocols discovered on open ports to total number of open ports
+	* - **Calculation**
+	  - :code:`M5 / M1`
+
+Quality of Port Scan
+^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Quality of review is high if and only if the review is highly regular and the potential for detecting anomalies (at least one per review) is also high.
+	* - **Calculation**
+	  - :code:`(1 - M2) * M4` or (if M3) :code:`(1 - M3) * M4`
+
+Quality
+^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of unauthorized ports reported
+	* - **Calculation**
+	  - :code:`M5 / M6`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of covered endpoints to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M9 / M10`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of correctly configured endpoints to the total number of endpoint?
+	* - **Calculation**
+	  - :code:`M14 / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints covered by at least one application firewall to the total number of critical endpoints
+	* - **Calculation**
+	  - :code:`M7 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of endpoints are successfully backing up system data on a regular basis?
+	* - **Calculation**
+	  - :code:`M8 / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of key systems are successfully backed up as a complete system?
+	* - **Calculation**
+	  - :code:`M4 / M2`
+
+Backup Integrity Quality
+^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of "properly working" backups to the total number of backups under test
+	* - **Calculation**
+	  - :code:`M2 / M1`
+
+Quality of Backup Restoration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Quality of backup restoration is high if and only if the backup restoration is highly regular and the potential for detecting anomalies (at least one per review) is also high.
+	* - **Calculation**
+	  - :code:`(1-M4) * M6` or (if M5) :code:`(1 - M5) / M6
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage backups are protected via physical security/encryption?
+	* - **Calculation**
+	  - :code:`M6 / M2`
+
+Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the ratio of endpoints matching the backup configuration policy to the total number of endpoints?
+	* - **Calculation**
+	  - :code:`M4 / M2`
+
+Lack of Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the ratio of endpoints *not* matching the backup configuration policy to the total number of endpoints?
+	* - **Calculation**
+	  - :code:`M5 / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network devices to which standard, documented security configuration standards exist to the total number of network devices
+	* - **Calculation**
+	  - :code:`(M4 - M2) / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of undocumented traffic flow configurations to the current total traffic flow configurations. If M2 > 0 then there are traffic flows configured on the device which are not documented in the inventory.
+	* - **Calculation**
+	  - :code:`M2 / M5`
+
+Completeness
+^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of inventoried but incomplete traffic flow rules to the total set of traffic flow rules. If M3 > 0, there are configuration items in the inventory no longer configured in the device's configuration.
+	* - **Calculation**
+	  - :code:`M6 / M4`
+
+Non-Compliance Ratio
+^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network devices not in compliance with secure configuration policies to the total number of network devices.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of inventoried network devices match the allowable version for that device/OS?
+	* - **Calculation**
+	  - If M2 > 0, then :code:`M4 / M2`; otherwise :code:`0`
+
+Multi-Factor Coverage
+^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network devices properly configured for multi-factor authentication to the total number of network devices.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M2(i))) / M1`
+
+Encrypted Session Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network devices properly configured for use of encrypted sessions to the total number of network devices.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M3(i))) / M1`
+
+Administrative Device Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of improperly configured administrative devices to the total number of administrative devices.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M3 (M1(i) AND M2(i))) / M3`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of adequately separated management paths to the total number of management paths.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the ratio of non-inventoried boundary devices to expected boundary devices? If the calculated value is greater than zero, the inventory is not current.
+	* - **Calculation**
+	  - :code:`M6 / M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network boundary devices scanned within the allowable timeframe to the total number of network boundary devices
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured network boundary devices to the total number of network boundary devices
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Endpoint Configuration
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the ratio of correctly configured endpoints to the total number of endpoints?
+	* - **Calculation**
+	  - :code:`M12 / M2`
+
+Monitoring System Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Percentage of appropriately configured monitoring systems
+	* - **Calculation**
+	  - :code:`(M1 - M3) / M1`
+
+Network Boundary Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Percentage of network boundaries not covered by a monitoring system
+	* - **Calculation**
+	  - :code:`(M4 - M6) / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of network boundaries covered by IDS sensors to total number of network boundaries 
+	* - **Calculation**
+	  - :code:`M5 / M1`
+
+IPS Coverage
+^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured IPS systems to the total number of IPS systems
+	* - **Calculation**
+	  - :code:`M9 / M7`
+
+Boundary Coverage
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of covered network boundaries to the total number of network boundaries
+	* - **Calculation**
+	  - :code:`M11 / M8`
+
+NetFlow Coverage
+^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of network boundary devices with appropriately configured NetFlow to the total number of network boundary devices
+	* - **Calculation**
+	  - :code:`M3 / M1`
+
+Logging Coverage
+^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of network boundary devices with appropriately configured logging to the total number of network boundary devices
+	* - **Calculation**
+	  - :code:`M7 / M1`
+
+Total Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of appropriately configured network boundary devices to the total number of network boundary devices
+	* - **Calculation**
+	  - :code:`M11 / M1`
+
+Proxy Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured application-layer proxies to the total number of application-layer proxies.
+	* - **Calculation**
+	  - :code:`M8 / M7`
+
+Internet Network Boundary Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of covered Internet network boundary devices to the total number of Internet network boundary devices
+	* - **Calculation**
+	  - :code:`M10 / M6`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured boundary proxy systems to the total number of boundary proxy systems
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Encryption Coverage
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of authorized remote hosts with encryption required to the total number of authorized remote hosts
+	* - **Calculation**
+	  - :code:`M3 / M1`
+
+Multi-Factor Authentication Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of authorized remote hosts with multi-factor authentication required to the total number of authorized remote hosts
+	* - **Calculation**
+	  - :code:`M7 / M1`
+
+Total Coverage
+^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of authorized remote hosts with both encryption and multi-factor authentication required to the total number of authorized remote hosts required
+	* - **Calculation**
+	  - :code:`M11 / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of authentication systems with properly configured mechanisms to ensure that organizational security policies are enforced in remote devices to the total number of authentication systems
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Existence
+^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ensure the inventory of all sensitive information, cross-referenced with the systems on which that information is kept, exists.
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of infrequently used sensitive systems are not properly isolated?
+	* - **Calculation**
+	  - :code:`M6 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of covered network perimeters to the total number of network perimeters
+	* - **Calculation**
+	  - :code:`M11 / M8`
+
+Perimeter Monitoring Configuration Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured network perimeter monitoring systems to the total number of network perimeter monitoring systems
+	* - **Calculation**
+	  - :code:`M9 / M7`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of endpoints with cloud provider access properly limited to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Manual Review
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Manual policy review included for this Sub-Control because it is not feasible to identify (and therefore check for) all cloud storage and email providers.
+	* - **Calculation**
+	  - :code:`M5`
+
+Network Monitoring Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured network monitoring systems to the total number of network monitoring systems
+	* - **Calculation**
+	  - :code:`M9 / M7`
+
+Network Boundary Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of covered network boundaries to the total number of network boundaries
+	* - **Calculation**
+	  - :code:`M11 / M8`
+
+Installed Software Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of approved mobile devices are equipped with approved encryption software?
+	* - **Calculation**
+	  - :code:`M4 / M2`
+
+Appropriately Configured Devices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of approved mobile devices equipped with approved encryption software meet or exceed the approved configuration policy?
+	* - **Calculation**
+	  - :code:`M8 / M2`
+
+Whitelisting Software Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with whitelisting software installed to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M2(i))) / M1`
+
+Non-Inventoried but Whitelisted
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with non-inventories but whitelisted USB device allowance to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M5(i))) / M1`
+
+Full Coverage
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints with inventoried USB storage device capability and USB whitelisting software installed to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M1 (M2(i) * M5(i))) / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured endpoints to the total number of endpoints without a business need to support external removable media
+	* - **Calculation**
+	  - :code:`M9 / M8`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured endpoints to the total number of endpoints supporting USB storage devices
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of adequately separated sensitive systems to the total number of sensitive systems.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of VLANs properly configured for firewall filtering to the total number of VLANs.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints correctly configured to restrict workstation to workstation communication to the total number of endpoints.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of sensitive information types properly configured to be encrypted in transit to the total set of sensitive information types.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Endpoint Coverage
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of covered endpoints to the total number of endpoints storing, processing, or transmitting sensitive information
+	* - **Calculation**
+	  - :code:`M11 / M7`
+
+Monitoring Coverage
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured active sensitive information monitoring tools to the total number of active sensitive information monitoring tools
+	* - **Calculation**
+	  - :code:`M9 / M8`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What is the percentage of endpoints which are compliant with the organization's access control policy?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints covered by at least one DLP software instance to the total number of endpoints capable of storing data
+	* - **Calculation**
+	  - :code:`M7 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints covered by an encryption tool to the total number of endpoints storing sensitive information
+	* - **Calculation**
+	  - :code:`M7 / M6`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured endpoints to the total number of endpoints storing sensitive information
+	* - **Calculation**
+	  - :code:`M7 / M6`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of discovered wireless access points to the total inventoried list of wireless access points.
+	* - **Calculation**
+	  - :code:`(M3 - M1) / M1`
+
+
+Inventory Gap
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are there any discovered wireless access points that are *not* contained in the inventory?
+	* - **Calculation**
+	  - :code:`M5 > 0`
+
+Unauthorized Usage
+^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are there any discovered wireless access points which are contained in the inventory but are noted as *not* authorized?
+	* - **Calculation**
+	  - :code:`M9 > 0`
+
+Detection Coverage
+^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network vulnerability scanning tools correctly configured for detecting unauthorized WAPs
+	* - **Calculation**
+	  - :code:`M5 / M7`
+
+Alerting Coverage
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network vulnerability scanning tools correctly configured for alerting on unauthorized WAPs
+	* - **Calculation**
+	  - :code:`M6 / M7`
+
+Full Coverage
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of network vulnerability scanning tools correctly configured for both detecting and alerting on unauthorized WAPs
+	* - **Calculation**
+	  - :code:`M9 / M7`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ratio of wireless access points covered by WIDS sensors to the total number of wireless access points
+	* - **Calculation**
+	  - :code:`M4 / M1`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured wireless-access-capable endpoints to the total number of wireless-access-capable endpoints
+	* - **Calculation**
+	  - :code:`M9 / M5`
+
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of wireless clients with peer-to-peer (adhoc) wireless network capabilities disabled
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of AES-capable devices are configured to use cipher suites leveraging AES?
+	* - **Calculation**
+	  - :code:`M8 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured wireless access points to the total number of wireless access points
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of devices properly configured to disable wireless peripheral access
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Logical Isolation
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The overall measure fails if there is no separate network for personal/non-corporate devices (M1 = 0)
+	* - **Calculation**
+	  - :code:``
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of the total number of wireless networks exist but are misconfigured?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Existence
+^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does the organization's authentication systems inventory exist?
+	* - **Calculation**
+	  - :code:`M1`
+
+Manual Review
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Was a manual review of the organization's systems inventory performed?
+	* - **Calculation**
+	  - :code:`M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of desired centralized authentication points to actual authentication points, where the goal is for M5 / M3 = 1.
+	* - **Calculation**
+	  - :code:`M5 / M3`
+
+MFA Coverage
+^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of accounts that are properly configured to require MFA to the total number of accounts.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of properly configured authentication systems to the total number of authentication systems.
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of properly configured authentication systems to the total number of authentication systems
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Account Inventory Accuracy
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Calculate the accuracy of current (to be checked) account inventory
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Enforcement Quality
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of employee accounts that have been terminated/revoked within the acceptable timeframe.
+	* - **Calculation**
+	  - :code:`M2 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of accounts are associated with at least one business process or ownership?
+	* - **Calculation**
+	  - :code:`M6 / M2`
+
+Dormant Accounts
+^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of all accounts are currently dormant but still enabled?
+	* - **Calculation**
+	  - :code:`M6 / M2`
+
+Enabled Dormant Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of accounts marked enabled are currently dormant and still enabled?
+	* - **Calculation**
+	  - :code:`M3 / M2`
+
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of accounts with valid expiration dates to the total number of accounts
+	* - **Calculation**
+	  - :code:`M5 / M6`
+
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of correctly configured authentication systems to the total number of authentication systems
+	* - **Calculation**
+	  - :code:`M7 / M8`
+
+Misconfigured Workstations
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of automatic locking enabled workstations are configured within the locking time threshold?
+	* - **Calculation**
+	  - :code:`M6 / M2`
+
+Unconfigured Workstations
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | How many workstations do *not* have automatic locking enabled?
+	* - **Calculation**
+	  - :code:`M2 - M4`
+
+Logging Coverage
+^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of authentication systems configured to log attempts to access deactivated accounts to the total number of authentication systems.
+	* - **Calculation**
+	  - :code:`M2 / M5`
+
+Alerting Coverage
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of authentication systems configured to log attempts to access deactivated accounts to the total number of authentication systems.
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Full Coverage
+^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of authentication systems configured to both log and alert on attempts to access deactivated accounts to the total number of authentication systems.
+	* - **Calculation**
+	  - :code:`M4 / M5`
+
+Endpoint Coverage
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of endpoints covered by at least one behavioral monitoring system to the total number of endpoints
+	* - **Calculation**
+	  - :code:`M9 / M8`
+
+Behavioral Monitoring System Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of appropriately configured behavioral monitoring systems to the total number of behavioral monitoring systems
+	* - **Calculation**
+	  - :code:`M11 / M7`
+
+Scoring
+^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of security awareness topic areas with organizational averages in the acceptable range
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of skills gap topics that are adequately covered in the organization's security awareness training
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Update Timeliness
+^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is the organization's security awareness program updated within acceptable time frame?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | What percentage of workforce members have completed the security awareness training module within the specified timeframe?
+	* - **Calculation**
+	  - :code:`M3 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of programming languages and development environments covered by a secure coding guide
+	* - **Calculation**
+	  - :code:`M4 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of software that contains proper error checking of inputs and is properly documented
+	* - **Calculation**
+	  - :code:`M6 / M7`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of externally acquired software that is either supported or has an associated organizational security configuration standard
+	* - **Calculation**
+	  - :code:`(M5 - M4) / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of compliant third-party components to the total number of third-party components in use
+	* - **Calculation**
+	  - :code:`M5 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of encryption algorithms used by the organization that are standardized, currently accepted, and extensively reviewed
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | THe ratio of completed required courses to total required courses by individual **NOTE**: An organizational average completion rate can be calculated by averaging the individual completion ratios from the above "Coverage" metric.
+	* - **Calculation**
+	  - :code:`Individual's M5 / Individual's M4`
+
+Static Analysis Tool Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of internally developed software verified by static analysis tools to the total number of internally developed software applications
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M3 (M1(i))) / M3`
+
+Dynamic Analysis Tool Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of internally developed software verified by dynamic analysis tools to the total number of internally developed software applications
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M3 (M2(i))) / M3`
+
+Process Completeness
+^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does the written process for accepting and addressing reports of software vulnerabilities exist and is it complete?
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3 AND M4`
+
+Environment Coverage
+^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of production systems where at least one non-production deployment exists to the total number of production systems
+	* - **Calculation**
+	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
+
+Monitored Account Coverage
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of accounts with production system access that are monitored to the total accounts with production system access
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of the number of applications covered by an application-level firewall to the number of eligible applications in the enterprise.
+	* - **Calculation**
+	  - :code:`M7 / M5`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of database management software covered by applicable enterprise security configuration standards to the total number of database management software. **NOTE**: The second ask of this sub-control speaks to assessment of Input 2 against security configuration standards determined by Operation 1.
+	* - **Calculation**
+	  - :code:`M4 / M7`
+
+Existence
+^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Ensure that there are written incident response plans that define roles of personnel as well as phases of incident handling/management.
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3`
+
+Incident Response Plan Completeness
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does the incident response plan exist, contain job titles/duties, and adequately address tracking and documentation throughout the incident?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Assignment Coverage
+^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of incident response jobs/duties with assignees to the total number of incident response jobs/duties
+	* - **Calculation**
+	  - :code:`M4 / M6`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are personnel, including backups, designated to support the incident handling process?
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3`
+
+Incident Reporting Standards Completeness
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does the Incident Reporting Standards document exist and adequately addresses the specified topics?
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3 AND M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is information on third-party contact information maintained, for use in incident handling?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is information regarding reporting of computer anomalies and incidents published for all workforce members?
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3 AND M4`
+
+Timeliness
+^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Timeliness of most recent incident response exercise
+	* - **Calculation**
+	  - :code:`M1`
+
+Completeness
+^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Were incident response After Action Reports complete, containing information regarding testing of communication channels, decision making, and technical competence?
+	* - **Calculation**
+	  - :code:`(M2 + M3 + M4) / 3`
+
+Scoring/Prioritization
+^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does the incident management policy include a scoring/prioritization schema, and are status update frequency and escalation paths reliant upon that schema?
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does a penetration testing program document exist and adequately address a full scope of attacks?
+	* - **Calculation**
+	  - :code:`	M1 AND M2`
+
+Penetration Testing Reports
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are both internal and external penetration tests conducted regularly?
+	* - **Calculation**
+	  - :code:`M1 AND M2`
+
+Vulnerability Discovery
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Do penetration testing reports document discovered vulnerabilities?
+	* - **Calculation**
+	  - :code:`M3`
+
+Red Team Exercises
+^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Are periodic Red Team exercises required by the enterprise's penetration testing policy?
+	* - **Calculation**
+	  - :code:`M1`
+
+Frequency
+^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Was the last Red Team exercise performed within the appropriate time period?
+	* - **Calculation**
+	  - :code:`M4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Does the Penetration Testing Program Includes Tests for the Presence of Unprotected System Information and Artifacts?
+	* - **Calculation**
+	  - :code:`(M1 + M2 + M3 + M4) / 4`
+
+Coverage
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | The ratio of tests/attacks not typically tested in production that have a matching test bed
+	* - **Calculation**
+	  - :code:`M3 / M4`
+
+Presence
+^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Presence or absence of instructions to use vulnerability scan results to inform penetration testing efforts
+	* - **Calculation**
+	  - :code:`M1`
+
+Policy Conformance
+^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is the enterprise's Red Team policy specified to produce results using open, machine readable standards, and is scoring designed to facilitate ongoing comparison?
+	* - **Calculation**
+	  - :code:`M1 AND M2 AND M3`
+
+Operational Conformance
+^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | Is the enterprise's Red Team policy being practiced operationally?
+	* - **Calculation**
+	  - :code:`M4 AND M5 AND M6`
+
+Privileged Accounts Remain
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | If M5 > 0, then privileged user accounts remain following the penetration testing period.
+	* - **Calculation**
+	  - :code:`M5 > 0`

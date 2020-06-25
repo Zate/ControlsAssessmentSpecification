@@ -45,7 +45,15 @@ Measures
 
 Metrics
 -------
-* M5 > 0 indicates a non up-to-date asset inventory
+
+Notes
+^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | M5 > 0 indicates a non up-to-date asset inventory
+	* - **Calculation**
+	  - :code:``
 
 DHCP Logging Quality
 ^^^^^^^^^^^^^^^^^^^^
@@ -61,8 +69,7 @@ CMDB Configuration Quality
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of appropriately configured CMDB servers using DHCP logging to update
-	    | IP addresses
+	  - | Ratio of appropriately configured CMDB servers using DHCP logging to update IP addresses
 	* - **Calculation**
 	  - :code:`M6 / M4`
 

@@ -47,8 +47,7 @@ Browser Plugin Enforcement Quality
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints utilizing browser plugins on the approved list to the total
-	    | number of endpoints.
+	  - | The ratio of endpoints utilizing browser plugins on the approved list to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M1 (M3(i))) / M1`
 
@@ -57,8 +56,7 @@ Email Client Plugin Enforcement Quality
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints utilizing email client plugins on the approved list to the
-	    | total number of endpoints.
+	  - | The ratio of endpoints utilizing email client plugins on the approved list to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M1 (M5(i))) / M1`
 

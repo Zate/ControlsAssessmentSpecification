@@ -45,8 +45,7 @@ DNS Configuration Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of internal DNS servers matching the approved configuration to the
-	    | total number of internal DNS servers.
+	  - | The ratio of internal DNS servers matching the approved configuration to the total number of internal DNS servers.
 	* - **Calculation**
 	  - :code:`M2 / M1`
 

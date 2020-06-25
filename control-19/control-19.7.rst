@@ -50,8 +50,7 @@ Completeness
 .. list-table::
 
 	* - **Metric**
-	  - | Were incident response After Action Reports complete, containing information regarding
-	    | testing of communication channels, decision making, and technical competence?
+	  - | Were incident response After Action Reports complete, containing information regarding testing of communication channels, decision making, and technical competence?
 	* - **Calculation**
 	  - :code:`(M2 + M3 + M4) / 3`
 

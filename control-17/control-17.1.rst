@@ -45,8 +45,7 @@ Scoring
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of security awareness topic areas with organizational averages in the 
-	    | acceptable range
+	  - | The ratio of security awareness topic areas with organizational averages in the acceptable range
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

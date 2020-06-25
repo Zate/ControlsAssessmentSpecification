@@ -44,7 +44,12 @@ Password Policy Existence
 
 Policy Review
 ^^^^^^^^^^^^^
-(Optional Manual Review) Pass if the organization's password policy includes a unique password requirement.
+.. list-table::
+
+	* - **Metric**
+	  - | (Optional Manual Review) Pass if the organization's password policy includes a unique password requirement.
+	* - **Calculation**
+	  - :code:``
 
 .. history
 .. authors

@@ -42,8 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of tests/attacks not typically tested in production that have a matching test
-	    | bed
+	  - | The ratio of tests/attacks not typically tested in production that have a matching test bed
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

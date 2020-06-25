@@ -47,8 +47,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of properly configured software instances for sending/receiving malware detection
-	    | events.
+	  - | Ratio of properly configured software instances for sending/receiving malware detection events.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

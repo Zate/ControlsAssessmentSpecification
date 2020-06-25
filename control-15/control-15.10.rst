@@ -40,14 +40,19 @@ Metrics
 
 Logical Isolation
 ^^^^^^^^^^^^^^^^^
-The overall measure fails if there is no separate network for personal/non-corporate devices (M1 = 0)
+.. list-table::
+
+	* - **Metric**
+	  - | The overall measure fails if there is no separate network for personal/non-corporate devices (M1 = 0)
+	* - **Calculation**
+	  - :code:``
 
 Coverage
 ^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of the total number of wireless networks exist but are misconfigured?
+	  - | What percentage of the total number of wireless networks exist but are misconfigured?
 	* - **Calculation**
 	  - :code:`M3 / M5`
 

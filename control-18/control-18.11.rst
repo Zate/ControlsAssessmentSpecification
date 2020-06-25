@@ -49,12 +49,9 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of database management software covered by applicable enterprise security
-	    | configuration standards to the total number of database management software
+	  - | The ratio of database management software covered by applicable enterprise security configuration standards to the total number of database management software. **NOTE**: The second ask of this sub-control speaks to assessment of Input 2 against security configuration standards determined by Operation 1.
 	* - **Calculation**
 	  - :code:`M4 / M7`
-
-**NOTE**: The second ask of this sub-control speaks to assessment of Input 2 against security configuration standards determined by Operation 1.
 
 .. history
 .. authors

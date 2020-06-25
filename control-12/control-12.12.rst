@@ -42,9 +42,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of authentication systems with properly configured mechanisms to ensure that
-	    | organizational security policies are enforced in remote devices to the total number of
-	    | authentication systems
+	  - | The ratio of authentication systems with properly configured mechanisms to ensure that organizational security policies are enforced in remote devices to the total number of authentication systems
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

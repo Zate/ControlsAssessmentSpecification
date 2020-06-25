@@ -40,11 +40,13 @@ Measures
 
 Metrics
 -------
+
+Anti-Exploitation
+^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of endpoints compliant with anti-exploitation configurations to the total
-	    | number of endpoints
+	  - | Ratio of endpoints compliant with anti-exploitation configurations to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M1 / M2`
 

@@ -51,8 +51,7 @@ Installed Software Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | What percentage of approved mobile devices are equipped with approved encryption
-	    | software?
+	  - | What percentage of approved mobile devices are equipped with approved encryption software?
 	* - **Calculation**
 	  - :code:`M4 / M2`
 
@@ -61,8 +60,7 @@ Appropriately Configured Devices
 .. list-table::
 
 	* - **Metric**
-	  - | What percentage of approved mobile devices equipped with approved encryption software
-	    | meet or exceed the approved configuration policy?
+	  - | What percentage of approved mobile devices equipped with approved encryption software meet or exceed the approved configuration policy?
 	* - **Calculation**
 	  - :code:`M8 / M2`
 

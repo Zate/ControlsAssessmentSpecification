@@ -46,8 +46,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured boundary proxy systems to the total number
-	    | of boundary proxy systems
+	  - | The ratio of appropriately configured boundary proxy systems to the total number of boundary proxy systems
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

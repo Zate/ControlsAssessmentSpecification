@@ -51,8 +51,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured wireless-access-capable endpoints to the total
-	    | number of wireless-access-capable endpoints
+	  - | The ratio of appropriately configured wireless-access-capable endpoints to the total number of wireless-access-capable endpoints
 	* - **Calculation**
 	  - :code:`M9 / M5`
 

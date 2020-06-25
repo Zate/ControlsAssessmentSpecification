@@ -41,8 +41,7 @@ Logging Storage Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints compliant with the organization's logging policy to the total
-	    | number of endpoints.
+	  - | The ratio of endpoints compliant with the organization's logging policy to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
 

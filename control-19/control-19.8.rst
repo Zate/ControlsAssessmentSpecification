@@ -41,8 +41,7 @@ Scoring/Prioritization
 .. list-table::
 
 	* - **Metric**
-	  - | Does the incident management policy include a scoring/prioritization schema, and are
-	    | status update frequency and escalation paths reliant upon that schema?
+	  - | Does the incident management policy include a scoring/prioritization schema, and are status update frequency and escalation paths reliant upon that schema?
 	* - **Calculation**
 	  - :code:`M1 AND M2 AND M3`
 

@@ -46,8 +46,7 @@ Image Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of systems with a corresponding image taken to the total number of inventoried
-	    | systems
+	  - | The ratio of systems with a corresponding image taken to the total number of inventoried systems
 	* - **Calculation**
 	  - :code:`M2 / M1`
 
@@ -56,8 +55,7 @@ Configuration Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of all systems with a corresponding image taken to those configured according
-	    | to the standards mapped to that system
+	  - | The ratio of all systems with a corresponding image taken to those configured according to the standards mapped to that system
 	* - **Calculation**
 	  - :code:`(SUM from 1..M2 (M3)) / M2`
 

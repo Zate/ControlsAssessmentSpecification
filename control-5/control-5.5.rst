@@ -73,8 +73,7 @@ Initial Non-Compliance (Per Endpoint)
 .. list-table::
 
 	* - **Metric**
-	  - | Per endpoint, the ratio of non-compliant recommendations to the total recommendations
-	    | assessed.
+	  - | Per endpoint, the ratio of non-compliant recommendations to the total recommendations assessed.
 	* - **Calculation**
 	  - :code:`M2 / M6`
 
@@ -83,8 +82,7 @@ Initial Exception Coverage (Per Endpoint)
 .. list-table::
 
 	* - **Metric**
-	  - | Per endpoint, the ratio of non-compliant recommendations with approved exceptions, to
-	    | the total recommendations assessed.
+	  - | Per endpoint, the ratio of non-compliant recommendations with approved exceptions, to the total recommendations assessed.
 	* - **Calculation**
 	  - :code:`(M7 - M3) / M7`
 
@@ -93,8 +91,7 @@ Subsequent Non-Compliance (Per Endpoint)
 .. list-table::
 
 	* - **Metric**
-	  - | Per endpoint, the ratio of non-compliant recommendations to the total recommendations
-	    | assessed.
+	  - | Per endpoint, the ratio of non-compliant recommendations to the total recommendations assessed.
 	* - **Calculation**
 	  - :code:`M4 / M6`
 
@@ -103,8 +100,7 @@ Subsequent Exception Coverage (Per Endpoint)
 .. list-table::
 
 	* - **Metric**
-	  - | Per endpoint, the ratio of non-compliant recommendations with approved exceptions, to
-	    | the total recommendations assessed.
+	  - | Per endpoint, the ratio of non-compliant recommendations with approved exceptions, to the total recommendations assessed.
 	* - **Calculation**
 	  - :code:`(M7 - M5) / M7`
 

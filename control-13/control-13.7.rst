@@ -47,8 +47,7 @@ Whitelisting Software Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with whitelisting software installed to the total number
-	    | of endpoints.
+	  - | The ratio of endpoints with whitelisting software installed to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M1 (M2(i))) / M1`
 
@@ -57,8 +56,7 @@ Non-Inventoried but Whitelisted
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with non-inventories but whitelisted USB device allowance
-	    | to the total number of endpoints.
+	  - | The ratio of endpoints with non-inventories but whitelisted USB device allowance to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M1 (M5(i))) / M1`
 
@@ -67,8 +65,7 @@ Full Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with inventoried USB storage device capability and USB
-	    | whitelisting software installed to the total number of endpoints.
+	  - | The ratio of endpoints with inventoried USB storage device capability and USB whitelisting software installed to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M1 (M2(i) * M5(i))) / M1`
 

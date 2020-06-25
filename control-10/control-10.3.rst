@@ -52,7 +52,7 @@ Backup Integrity Quality
 .. list-table::
 
 	* - **Metric**
-	  - The ratio of "properly working" backups to the total number of backups under test
+	  - | The ratio of "properly working" backups to the total number of backups under test
 	* - **Calculation**
 	  - :code:`M2 / M1`
 
@@ -61,9 +61,7 @@ Quality of Backup Restoration
 .. list-table::
 
 	* - **Metric**
-	  - | Quality of backup restoration is high if and only if the backup restoration is
-	    | highly regular and the potential for detecting anomalies (at least one per review)
-	    | is also high.
+	  - | Quality of backup restoration is high if and only if the backup restoration is highly regular and the potential for detecting anomalies (at least one per review) is also high.
 	* - **Calculation**
 	  - :code:`(1-M4) * M6` or (if M5) :code:`(1 - M5) / M6
 

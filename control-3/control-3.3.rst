@@ -41,8 +41,7 @@ Misconfigured Account Ratio
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of misconfigured vulnerability scanning accounts to the total number of
-	    | vulnerability scanning accounts
+	  - | Ratio of misconfigured vulnerability scanning accounts to the total number of vulnerability scanning accounts
 	* - **Calculation**
 	  - :code:`(M1 - M3) / M1`
 

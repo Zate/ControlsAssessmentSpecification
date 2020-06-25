@@ -43,8 +43,7 @@ Process Completeness
 .. list-table::
 
 	* - **Metric**
-	  - | Does the written process for accepting and addressing reports of software 
-	    | vulnerabilities exist and is it complete?
+	  - | Does the written process for accepting and addressing reports of software vulnerabilities exist and is it complete?
 	* - **Calculation**
 	  - :code:`M1 AND M2 AND M3 AND M4`
 

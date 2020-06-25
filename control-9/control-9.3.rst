@@ -55,8 +55,7 @@ Quality of Port Scan
 .. list-table::
 
 	* - **Metric**
-	  - | Quality of review is high if and only if the review is highly regular and the potential
-	    | for detecting anomalies (at least one per review) is also high.
+	  - | Quality of review is high if and only if the review is highly regular and the potential for detecting anomalies (at least one per review) is also high.
 	* - **Calculation**
 	  - :code:`(1 - M2) * M4` or (if M3) :code:`(1 - M3) * M4`
 

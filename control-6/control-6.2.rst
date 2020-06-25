@@ -47,8 +47,7 @@ Logging Policy Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Determine the ratio of endpoints implementing the prescribed event logging policy
-	    | to the total number of endpoints.
+	  - | Determine the ratio of endpoints implementing the prescribed event logging policy to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`M4 / M6)`
 

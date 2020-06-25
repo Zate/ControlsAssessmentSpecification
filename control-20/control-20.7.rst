@@ -49,8 +49,7 @@ Policy Conformance
 .. list-table::
 
 	* - **Metric**
-	  - | Is the enterprise's Red Team policy specified to produce results using open, machine
-	    | readable standards, and is scoring designed to facilitate ongoing comparison?
+	  - | Is the enterprise's Red Team policy specified to produce results using open, machine readable standards, and is scoring designed to facilitate ongoing comparison?
 	* - **Calculation**
 	  - :code:`M1 AND M2 AND M3`
 

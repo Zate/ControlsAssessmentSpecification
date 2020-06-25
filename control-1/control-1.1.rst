@@ -49,7 +49,15 @@ Measures
 
 Metrics
 -------
-* If M8 is 0, then this Sub-Control receives a failing score and the other metrics don't apply.
+
+Notes
+^^^^^
+.. list-table::
+
+	* - **Metric**
+	  - | If M8 is 0, then this Sub-Control receives a failing score and the other metrics don't apply.
+	* - **Calculation**
+	  - :code:``
 
 Asset Discovery Coverage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^

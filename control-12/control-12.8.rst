@@ -60,7 +60,6 @@ NetFlow Coverage
 	* - **Calculation**
 	  - :code:`M3 / M1`
 
-
 Logging Coverage
 ^^^^^^^^^^^^^^^^
 .. list-table::
@@ -70,7 +69,6 @@ Logging Coverage
 	* - **Calculation**
 	  - :code:`M7 / M1`
 
-
 Total Coverage
 ^^^^^^^^^^^^^^
 .. list-table::
@@ -79,6 +77,7 @@ Total Coverage
 	  - | Ratio of appropriately configured network boundary devices to the total number of network boundary devices
 	* - **Calculation**
 	  - :code:`M11 / M1`
+
 .. history
 .. authors
 .. license

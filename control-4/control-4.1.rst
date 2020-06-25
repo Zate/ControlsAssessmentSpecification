@@ -44,8 +44,7 @@ Administrative Account Inventory
 .. list-table::
 
 	* - **Metric**
-	  - | Ensure the administrative account inventory exists.  If :code:`M1 == 0`, this metric
-	    | fails and the remaining metrics are not applicable.
+	  - | Ensure the administrative account inventory exists.  If :code:`M1 == 0`, this metric fails and the remaining metrics are not applicable.
 	* - **Calculation**
 	  - :code:`M1`
 
@@ -54,8 +53,7 @@ Automated Tool Functioning
 .. list-table::
 
 	* - **Metric**
-	  - | Ensure any automated tools are properly functioning.  If :code:`M2 == 0`, this metric
-	    | fails and the remaining metrics are not applicable.
+	  - | Ensure any automated tools are properly functioning.  If :code:`M2 == 0`, this metric fails and the remaining metrics are not applicable.
 	* - **Calculation**
 	  - :code:`M2`
 
@@ -73,8 +71,7 @@ Unauthorized Accounts
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of discovered unauthorized administrative accounts to total discovered
-	    | administrative accounts
+	  - | The ratio of discovered unauthorized administrative accounts to total discovered administrative accounts
 	* - **Calculation**
 	  - :code:`M6 / (M5 + M6)`
 

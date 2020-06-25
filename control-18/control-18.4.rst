@@ -47,8 +47,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of compliant third-party components to the total number of third-party components
-	    | in use
+	  - | The ratio of compliant third-party components to the total number of third-party components in use
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

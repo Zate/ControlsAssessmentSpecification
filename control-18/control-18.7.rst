@@ -40,19 +40,16 @@ Static Analysis Tool Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of internally developed software verified by static analysis tools to the
-	    | total number of internally developed software applications
+	  - | The ratio of internally developed software verified by static analysis tools to the total number of internally developed software applications
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M3 (M1(i))) / M3`
-
 
 Dynamic Analysis Tool Coverage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of internally developed software verified by dynamic analysis tools to the
-	    | total number of internally developed software applications
+	  - | The ratio of internally developed software verified by dynamic analysis tools to the total number of internally developed software applications
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M3 (M2(i))) / M3`
 

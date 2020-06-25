@@ -41,8 +41,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of adequately separated management paths to the total number of management
-	    | paths.
+	  - | The ratio of adequately separated management paths to the total number of management paths.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

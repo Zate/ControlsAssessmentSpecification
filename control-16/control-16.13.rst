@@ -62,8 +62,7 @@ Endpoint Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints covered by at least one behavioral monitoring system to the
-	    | total number of endpoints
+	  - | The ratio of endpoints covered by at least one behavioral monitoring system to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M9 / M8`
 
@@ -72,8 +71,7 @@ Behavioral Monitoring System Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured behavioral monitoring systems to the total
-	    | number of behavioral monitoring systems
+	  - | The ratio of appropriately configured behavioral monitoring systems to the total number of behavioral monitoring systems
 	* - **Calculation**
 	  - :code:`M11 / M7`
 

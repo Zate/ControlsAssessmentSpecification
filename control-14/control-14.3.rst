@@ -43,8 +43,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints correctly configured to restrict workstation to workstation
-	    | communication to the total number of endpoints.
+	  - | The ratio of endpoints correctly configured to restrict workstation to workstation communication to the total number of endpoints.
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

@@ -45,11 +45,9 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | THe ratio of completed required courses to total required courses by individual
+	  - | THe ratio of completed required courses to total required courses by individual **NOTE**: An organizational average completion rate can be calculated by averaging the individual completion ratios from the above "Coverage" metric.
 	* - **Calculation**
 	  - :code:`Individual's M5 / Individual's M4`
-
-**NOTE**: An organizational average completion rate can be calculated by averaging the individual completion ratios from the above "Coverage" metric.
 
 .. history
 .. authors

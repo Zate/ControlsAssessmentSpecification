@@ -46,8 +46,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of network boundary devices scanned within the allowable timeframe to the
-	    | total number of network boundary devices
+	  - | The ratio of network boundary devices scanned within the allowable timeframe to the total number of network boundary devices
 	* - **Calculation**
 	  - :code:`M3 / M4`
 

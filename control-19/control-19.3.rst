@@ -33,10 +33,13 @@ Measures
 
 Metrics
 -------
+
+Coverage
+^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - Are personnel, including backups, designated to support the incident handling process?
+	  - | Are personnel, including backups, designated to support the incident handling process?
 	* - **Calculation**
 	  - :code:`M1 AND M2 AND M3`
 

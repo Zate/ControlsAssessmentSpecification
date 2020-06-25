@@ -39,16 +39,12 @@ Measures
 Metrics
 -------
 
-* If M2 > 0 then there are traffic flows configured on the device which are not documented in the inventory.
-* If M3 > 0, there are configuration items in the inventory no longer configured in the device's configuration.
-
 Coverage
 ^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of undocumented traffic flow configurations to the current total traffic
-	    | flow configurations
+	  - | The ratio of undocumented traffic flow configurations to the current total traffic flow configurations. If M2 > 0 then there are traffic flows configured on the device which are not documented in the inventory.
 	* - **Calculation**
 	  - :code:`M2 / M5`
 
@@ -57,8 +53,7 @@ Completeness
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of inventoried but incomplete traffic flow rules to the total set of traffic
-	    | flow rules.
+	  - | The ratio of inventoried but incomplete traffic flow rules to the total set of traffic flow rules. If M3 > 0, there are configuration items in the inventory no longer configured in the device's configuration.
 	* - **Calculation**
 	  - :code:`M6 / M4`
 

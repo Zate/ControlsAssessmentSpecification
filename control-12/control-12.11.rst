@@ -69,8 +69,7 @@ Total Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of authorized remote hosts with both encryption and multi-factor authentication required to the total number of authorized remote hosts
-	    | required
+	  - | Ratio of authorized remote hosts with both encryption and multi-factor authentication required to the total number of authorized remote hosts required
 	* - **Calculation**
 	  - :code:`M11 / M1`
 

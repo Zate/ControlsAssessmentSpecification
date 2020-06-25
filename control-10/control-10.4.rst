@@ -49,7 +49,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - What percentage backups are protected via physical security/encryption?
+	  - | What percentage backups are protected via physical security/encryption?
 	* - **Calculation**
 	  - :code:`M6 / M2`
 

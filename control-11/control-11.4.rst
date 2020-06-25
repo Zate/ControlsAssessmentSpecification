@@ -45,8 +45,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | What percentage of inventoried network devices match the allowable version for that
-	    | device/OS?
+	  - | What percentage of inventoried network devices match the allowable version for that device/OS?
 	* - **Calculation**
 	  - If M2 > 0, then :code:`M4 / M2`; otherwise :code:`0`
 

@@ -33,7 +33,7 @@ Operations
 #. Refine the endpoint inventory (Input 1) to only contain endpoints that can support anti-malware software endpoint inventory - this reduced list of endpoints becomes M1
 #. For each endpoint in M1, generate a list of those endpoints that have an acceptable version of anti-malware software installed and enabled (both scanning engine and signature database) according to the information provided in Input 2 (M2) and a list of those endpoints that do not have an acceptable version of anti-malware software installed and enabled (M3).
 #. For each endpoint in M1, generate a list of those endpoints that have been updated within the time frame specified by Input 3 (M4), and a list of those endpoints that have not been updated within that time-frame (M5)
-
+#. **NOTE**: Comparing the coverage metric to the freshness metric can serve as a useful check - for instance, if the coverage metric tends to be high, while the freshness metric is low, that would suggest that Input 2 might not have been updated recently enough (that is, outdated versions are being considered acceptable)?
 Measures
 --------
 * M1 = List of endpoints capable of supporting anti-malware software
@@ -55,8 +55,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of anti-malware software version compliant endpoints to the total number
-	    | of endpoints capable of supporting anti-malware software?
+	  - | The ratio of anti-malware software version compliant endpoints to the total number of endpoints capable of supporting anti-malware software?
 	* - **Calculation**
 	  - :code:`M7 / M9`
 
@@ -65,12 +64,9 @@ Freshness
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints whose anti-malware software has been updated within the specified
-	    | timeframe?
+	  - | The ratio of endpoints whose anti-malware software has been updated within the specified timeframe?
 	* - **Calculation**
 	  - :code:`M9 / M6`
-
-**NOTE**: Comparing the coverage metric to the freshness metric can serve as a useful check - for instance, if the coverage metric tends to be high, while the freshness metric is low, that would suggest that Input 2 might not have been updated recently enough (that is, outdated versions are being considered acceptable)?
 
 .. history
 .. authors

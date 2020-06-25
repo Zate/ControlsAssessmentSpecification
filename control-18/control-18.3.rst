@@ -47,8 +47,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of externally acquired software that is either supported or has an associated
-	    | organizational security configuration standard
+	  - | The ratio of externally acquired software that is either supported or has an associated organizational security configuration standard
 	* - **Calculation**
 	  - :code:`(M5 - M4) / M5`
 

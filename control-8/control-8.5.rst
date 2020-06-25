@@ -40,10 +40,13 @@ Measures
 
 Metrics
 -------
+
+Auto Run Disabled
+^^^^^^^^^^^^^^^^^
 .. list-table::
 
 	* - **Metric**
-	  - The ratio of endpoints properly disabling auto-run to the total number of endpoints?
+	  - | The ratio of endpoints properly disabling auto-run to the total number of endpoints?
 	* - **Calculation**
 	  - :code:`M3 / M5`
 

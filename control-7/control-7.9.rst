@@ -40,8 +40,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints configured as email gateways that are properly configured to
-	    | the total number of email gateway endpoints
+	  - | The ratio of endpoints configured as email gateways that are properly configured to the total number of email gateway endpoints
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M2 (M1(i))) / M2`
 

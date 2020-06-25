@@ -54,8 +54,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured administrative devices to the total number of
-	    | administrative devices
+	  - | The ratio of appropriately configured administrative devices to the total number of administrative devices
 	* - **Calculation**
 	  - :code:`M7 / M5`
 

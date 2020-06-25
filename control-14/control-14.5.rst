@@ -63,8 +63,7 @@ Endpoint Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of covered endpoints to the total number of endpoints storing, processing, or
-	    | transmitting sensitive information
+	  - | The ratio of covered endpoints to the total number of endpoints storing, processing, or transmitting sensitive information
 	* - **Calculation**
 	  - :code:`M11 / M7`
 
@@ -73,8 +72,7 @@ Monitoring Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured active sensitive information monitoring tools to
-	    | the total number of active sensitive information monitoring tools
+	  - | The ratio of appropriately configured active sensitive information monitoring tools to the total number of active sensitive information monitoring tools
 	* - **Calculation**
 	  - :code:`M9 / M8`
 

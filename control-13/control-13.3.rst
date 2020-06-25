@@ -71,8 +71,7 @@ Perimeter Monitoring Configuration Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured network perimeter monitoring systems to the total
-	    | number of network perimeter monitoring systems
+	  - | The ratio of appropriately configured network perimeter monitoring systems to the total number of network perimeter monitoring systems
 	* - **Calculation**
 	  - :code:`M9 / M7`
 

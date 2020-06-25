@@ -49,7 +49,7 @@ Dormant Accounts
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of all accounts are currently dormant but still enabled?
+	  - | What percentage of all accounts are currently dormant but still enabled?
 	* - **Calculation**
 	  - :code:`M6 / M2`
 
@@ -58,7 +58,7 @@ Enabled Dormant Accounts
 .. list-table::
 
 	* - **Metric**
-	  - What percentage of accounts marked enabled are currently dormant and still enabled?
+	  - | What percentage of accounts marked enabled are currently dormant and still enabled?
 	* - **Calculation**
 	  - :code:`M3 / M2`
 

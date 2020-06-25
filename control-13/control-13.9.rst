@@ -48,8 +48,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured endpoints to the total number of endpoints
-	    | supporting USB storage devices
+	  - | The ratio of appropriately configured endpoints to the total number of endpoints supporting USB storage devices
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

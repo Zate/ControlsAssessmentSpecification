@@ -44,9 +44,8 @@ Measures
 * M6 = Count of items in M5
 * M7 = List of items in the inventory
 * M8 = Count of items in M7
-
-* M1 = The number of items from Input 1 **NOT** passing either Operation 1 or Operation 2
-* M2 = The total number of items in Input 1
+* M9 = The number of items from Input 1 **NOT** passing either Operation 1 or Operation 2
+* M10 = The total number of items in Input 1
 
 Metrics
 -------
@@ -56,11 +55,9 @@ Unauthorized Asset Remediation
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of unaccounted for, unauthorized assets, to the total assets in the asset
-	    | inventory
+	  - | The ratio of unaccounted for, unauthorized assets, to the total assets in the asset inventory. If the value of M6 is 0, there are no unauthorized assets that remain unaccounted for. In this case, the value of the metric is 1.
 	* - **Calculation**
-	  - | If the value of M6 is 0, there are no unauthorized assets that remain unaccounted for.
-	    | In this case, the value of the metric is 1.  Otherwise, the value is :code:`(M8 - M6) / M8`
+	  - :code:`(M8 - M6) / M8`
 
 .. history
 .. authors

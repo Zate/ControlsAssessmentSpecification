@@ -40,8 +40,7 @@ Existence
 .. list-table::
 
 	* - **Metric**
-	  - | Ensure the inventory of all sensitive information, cross-referenced with the systems
-	    | on which that information is kept, exists.
+	  - | Ensure the inventory of all sensitive information, cross-referenced with the systems on which that information is kept, exists.
 	* - **Calculation**
 	  - :code:`M1 AND M2`
 

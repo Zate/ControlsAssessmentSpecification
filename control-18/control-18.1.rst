@@ -44,8 +44,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of programming languages and development environments covered by a secure
-	    | coding guide
+	  - | The ratio of programming languages and development environments covered by a secure coding guide
 	* - **Calculation**
 	  - :code:`M4 / M5`
 

@@ -45,8 +45,7 @@ Regularity Measure of Log Review
 .. list-table::
 
 	* - **Metric**
-	  - | Measure the irregularity or variance of log review.  The higher the value the more
-	    | irregularity.
+	  - | Measure the irregularity or variance of log review.  The higher the value the more irregularity.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..N ( (t(i+1) - t(i)) - M1)^2 / N ) / R`
 
@@ -55,11 +54,9 @@ Quality of Log Review
 .. list-table::
 
 	* - **Metric**
-	  - | The quality of review is high if-and-only-if the review is highly regular and the
-	    | potential for detecting anomalies (at least one per review) is also high.
+	  - | The quality of review is high if-and-only-if the review is highly regular and the potential for detecting anomalies (at least one per review) is also high.
 	* - **Calculation**
 	  - :code:`(1-M2) * M3`
-
 
 .. history
 .. authors

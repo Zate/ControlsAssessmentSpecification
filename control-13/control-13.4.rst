@@ -47,8 +47,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | Ratio of endpoints with cloud provider access properly limited to the total number of
-	    | endpoints
+	  - | Ratio of endpoints with cloud provider access properly limited to the total number of endpoints
 	* - **Calculation**
 	  - :code:`M3 / M4`
 
@@ -57,8 +56,7 @@ Manual Review
 .. list-table::
 
 	* - **Metric**
-	  - | Manual policy review included for this Sub-Control because it is not feasible to
-	    | identify (and therefore check for) all cloud storage and email providers.
+	  - | Manual policy review included for this Sub-Control because it is not feasible to identify (and therefore check for) all cloud storage and email providers.
 	* - **Calculation**
 	  - :code:`M5`
 

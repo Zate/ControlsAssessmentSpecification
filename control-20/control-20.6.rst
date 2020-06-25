@@ -36,8 +36,7 @@ Presence
 .. list-table::
 
 	* - **Metric**
-	  - | Presence or absence of instructions to use vulnerability scan results to inform
-	    | penetration testing efforts
+	  - | Presence or absence of instructions to use vulnerability scan results to inform penetration testing efforts
 	* - **Calculation**
 	  - :code:`M1`
 

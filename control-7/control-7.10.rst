@@ -46,8 +46,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured e-mail servers to the total number of e-mail
-	    | servers
+	  - | The ratio of appropriately configured e-mail servers to the total number of e-mail servers
 	* - **Calculation**
 	  - :code:`M5 / M4`
 

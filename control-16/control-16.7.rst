@@ -40,8 +40,7 @@ Enforcement Quality
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of employee accounts that have been terminated/revoked within the acceptable
-	    | timeframe.
+	  - | The ratio of employee accounts that have been terminated/revoked within the acceptable timeframe.
 	* - **Calculation**
 	  - :code:`M2 / M4`
 

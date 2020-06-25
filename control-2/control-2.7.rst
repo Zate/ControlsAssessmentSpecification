@@ -52,8 +52,7 @@ Whitelisting Installation Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with whitelisting capabilities installed to the number of
-	    | whitelisting-eligible endpoints
+	  - | The ratio of endpoints with whitelisting capabilities installed to the number of whitelisting-eligible endpoints
 	* - **Calculation**
 	  - :code:`M7 / M6`
 
@@ -62,8 +61,7 @@ Whitelisting Configuration Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of endpoints with appropriately configured whitelisting capabilities
-	    | to the number of endpoints with whitelisting capabilities
+	  - | The ratio of endpoints with appropriately configured whitelisting capabilities to the number of endpoints with whitelisting capabilities
 	* - **Calculation**
 	  - :code:`M9 /  M7`
 

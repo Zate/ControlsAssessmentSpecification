@@ -60,7 +60,12 @@ Unauthorized Software (Per Endpoint)
 
 Unauthorized Software (Organizational)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+.. list-table::
+
+	* - **Metric**
+	  - | The organizational metric is calculated by averaging the results of the "per endpoint" metric above.
+	* - **Calculation**
+	  - :code:``
 
 .. history
 .. authors

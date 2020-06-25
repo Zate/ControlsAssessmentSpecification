@@ -51,8 +51,7 @@ Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of appropriately configured endpoints to the total number of endpoints without
-	    | a business need to support external removable media
+	  - | The ratio of appropriately configured endpoints to the total number of endpoints without a business need to support external removable media
 	* - **Calculation**
 	  - :code:`M9 / M8`
 

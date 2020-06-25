@@ -40,8 +40,7 @@ Administrative Device Configuration
 .. list-table::
 
 	* - **Metric**
-	  - | The ratio of improperly configured administrative devices to the total number of
-	    | administrative devices.
+	  - | The ratio of improperly configured administrative devices to the total number of administrative devices.
 	* - **Calculation**
 	  - :code:`(SUM from i=1..M3 (M1(i) AND M2(i))) / M3`
 
